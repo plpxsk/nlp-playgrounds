@@ -1,0 +1,359 @@
+    cancers
+             Review
+Future Challenges in Cancer Resistance to Immunotherapy
+Marit J. van Elsas, Thorbald van Hall and Sjoerd H. van der Burg *
+Department of Medical Oncology, Oncode Institute, Leiden University Medical Center, 2300RC Leiden, The Netherlands; m.j.van_elsas@lumc.nl (M.J.v.E.); T.van_hall@lumc.nl (T.v.H.)
+* Correspondence: shvdburg@lumc.nl; Tel.: +31-71-5261180
+  Received: 9 March 2020; Accepted: 8 April 2020; Published: 10 April 2020
+􏰀􏰁􏰂􏰀􏰃 􏰅􏰆􏰇
+􏰈􏰉􏰊􏰋􏰌􏰂􏰍
+Abstract: Cancer immunotherapies, including checkpoint inhibitors, adoptive T cell transfer and therapeutic cancer vaccines, have shown promising response rates in clinical trials. Unfortunately, there is an increasing number of patients in which initially regressing tumors start to regrow due to an immunotherapy-driven acquired resistance. Studies on the underlying mechanisms reveal that these can be similar to well-known tumor intrinsic and extrinsic primary resistance factors that precluded the majority of patients from responding to immunotherapy in the first place. Here, we discuss primary and secondary immune resistance and point at strategies to identify potential new mechanisms of immune evasion. Ultimately, this may lead to improved immunotherapy strategies with improved clinical outcomes.
+Keywords: immunotherapy; primary resistance; secondary resistance
+1. Introduction
+Despite major improvements in treatment, cancer remains a leading cause of death worldwide. With the global cancer burden being estimated at 18.1 million new cases and 9.6 million deaths in 2018, the need for improved treatment strategies is pressing [1]. In recent years, therapeutics that capitalize on the power of the host’s immune system to control and eliminate cancer have been developed. This causes a shift in the focus from the tumor itself, with therapeutic interventions being broad and aggressive (e.g., radiotherapy or chemotherapy), toward a more personalized and refined approach utilizing the immune system’s power and specificity. Several types of immunotherapeutic approaches have been developed, with checkpoint inhibition (CPI) and adoptive cell transfer (ACT) being the most successful, and therapeutic cancer vaccines starting to show the first signs of efficacy [2].
+Immune checkpoints (ICs) function by modulating the immune response, in order to maintain self-tolerance and restrict the duration of the immune response [3]. T cell activation, through antigen recognition by the T cell receptor (TCR), is tightly regulated by the balance between co-stimulatory and co-inhibitory signals. Two of these co-inhibitory ICs, CTLA-4 and PD-1, have been studied extensively for their roles in cancer. CTLA-4 is a co-inhibitory molecule with the ability to directly inhibit T cell activation, as it counteracts CD28 co-stimulation by outcompeting its binding to their mutual ligands, CD80 and CD86 [4,5]. PD-1 is another inhibitory IC expressed on the cell surface of T cells, which is upregulated on T cells with an “exhausted” phenotype, following prolonged antigen exposure [6]. The blocking of co-inhibitory ICs to treat cancer has shown promising results in clinical trials [7–9]. Consequently, in 2011, the monoclonal antibody blocking CTLA-4 (Ipilimumab) was approved by the FDA for the treatment of advanced melanoma, followed by the approval of a PD-1-blocking monoclonal antibody (Pembrolizumab) for the treatment of melanoma in 2014, and the approval of a PD-L1 blocking antibody (Atezolizumab) for the treatment of urothelial carcinoma in 2016 [10–12]. Since then, several additional PD-1 and PD-L1 blocking antibodies have entered the market. Besides CTLA-4 and PD-1, there are several other IC targets currently under investigation, and the blocking of these inhibitory immune checkpoints, including NKG2A, is currently studied for its potential in creating novel therapeutic interventions [13–15]. Nevertheless, checkpoint inhibition is only effective in patients with a pre-existing tumor-reactive CD8+ T cell response, limiting its clinical applicability to certain tumor types and stages, if other means to provide tumor-reactive T cells are not applied [16].
+One method to increase the number of tumor-reactive T cells is the adoptive transfer of ex vivo expanded tumor-infiltrating T cells (TILs) or transgenic T cells expressing a defined T cell receptor or chimeric antigen receptor (CAR T cells). The adoptive transfer of such cells has led to remarkable clinical responses, including the full regression of tumors [17–19]. Another therapeutic approach to increase the number of tumor-reactive T cells is the use of cancer vaccines. Therapeutic cancer vaccines aim to reinvigorate the patient’s T cell response to tumor-associated antigens (TAAs) or tumor-specific antigens (TSAs). Several vaccine platforms have been developed, including peptide, RNA and DNA vaccines, with encouraging efficacies as monotherapies in early disease stages or in combination with other immunotherapies in established tumors [20]. While TAAs have a broad applicability (multiple cancer types and stages), their origins as self-antigens may limit the efficacy of the responding T cells due to potential central tolerance mechanisms. This does not form a problem for the group of TSAs, comprising oncogenic virus-derived antigens and neoantigens, explaining why they should form very potent cancer vaccines. Indeed, several studies using genomic and bioinformatics approaches to design personalized neoantigen vaccines report a strong neoantigen-specific anti-tumor CD4+ and CD8+ T cell response correlated with tumor control in mice and humans [21–25]. Similarly, vaccines aiming to reinforce T cell reactivity to the highly oncogenic human papillomavirus type 16 (HPV16) encoded oncoproteins E6 and E7 not only induced strong HPV16-specific CD4+ and CD8+ T cell responses but also resulted in a high percentage of complete and partial regressions of HPV16-induced premalignant lesions [26–29]. It is important to note that the primary job of both the adoptive transfer of ex vivo expanded T cells and of therapeutic cancer vaccines is to amplify the tumor-reactive type 1 T cell pool and not to deal with immunosuppressive factors in the local tumor microenvironment (TME) known to be crucial [2]. Considering the fact that activated T cells start to express many co-inhibitory molecules, the combination of adoptively transferred T cells or vaccines with CPI holds a clear clinical advantage in keeping the tumor-reactive T cell response going [20]. As anticipated, clinical trials exploring the combination of cancer vaccines with CPI report improved clinical outcomes compared to those from monotherapies in multiple cancer types, suggesting a synergistic effect of these therapies [30–32]. Similar effects have been reported for adoptive cell transfer therapy with CPI [33,34].
+2. Limitations of Immunotherapy
+The shift in focus from the direct targeting of the cancer cell towards the stimulation of the anti-tumor response has resulted in encouraging clinical results in humans, but also comes with new problems. Despite promising overall response rates (ORR) for treatment with CPIs, tumor vaccines and ACT or a combination of these, response rates to immunotherapy vary greatly between tumor subtypes, depending partly on their immunogenicities [30,35–44]. Primary therapy resistance, defined as a lack of clinical benefit from immunotherapy on tumor growth, exists in a large proportion of patients. On top of this, and maybe even more importantly, a substantial percentage of tumors grow back after the initial response to therapy, even after deep regressions [30,45]. This process, known as secondary therapy resistance, most often occurs before tumors completely regress. For some tumor types, even after deep or complete regression, the risk of secondary resistance is very high [30,45]. Secondary resistance may appear as soon as 2 weeks after treatment initiation, despite the continuation of therapy. A series of examples of clinical trials where T cell-based immunotherapies result in primary and secondary resistance following different grades of initial response are listed in Table 1. This makes primary and secondary, or acquired, resistance one of the key factors responsible for curtailing overall survival rates in patients treated with immunotherapy.
+
+Cancers 2020, 12, 935
+Therapy
+Pembrolizumab [35]
+JS001 (PD-1 inhibitor) [36]
+Nivolumab OR Pembrolizumab [37]
+αPD-L1 antibody [38]
+Nivolumab [39] Ipilimumab + Gemcitabine +
+Cisplatin [40] Nivolumab + ISA 101
+(SLP HPV16 vaccine) [30] Pelareorep + Gemcitabine [41]
+siWT1 peptide vaccine + Gemcitabine [42]
+Adenoviral vector with IFNα2b gene + Celecoxib + chemotherapy [43]
+HPV+TILs + Cyclophosphamide + Fludarabine [44]
+Table 1. Examples of clinical trials resulting in acquired resistance during immunotherapy.
+3 of 16
+Relapse Start
+3 months
+8 weeks
+2 months
+6 weeks
+6 weeks
+6 weeks
+18 weeks
+1 month
+6 weeks
+6 weeks *
+1 month
+ Disease
+Advanced melanoma
+Advanced melanoma, urothelial cancer, renal cell cancer
+Advanced NSCLC
+Melanoma NSCLC
+Urothelial Cancer
+Metastatic Urothelial cancer
+HPV16+ OPC, anal or cervical cancer
+PDAC
+PDAC
+MPM
+Cervical cancer, HPV+ cancer
+Study Type
+Patients Enrolled
+RR
+30 50
+<50% <100% 12 * 22 *
+3 * 4 * 15 13 55 512 49 1* 5*
+1*0 53 10 * 8 *
+CCR 100%
+8 * 1 *
+1 3 8 2* 0 0 0 *
+Relapse RR
+10 30 50
+<30% <50% <100% 2/13 2/12 2/22
+Relapse CRR 100%
+0/8 - 0/1
+  Retrospective 96 analysis
+Phase I 36 clinical trial
+Retrospective 160 analysis
+Phase I 41 clinical trial
+Phase I/II 74 clinical trial
+Phase II 36 clinical trial
+10 <30%
+13 5 * 15 7 8 1 2 7 14 7*
+2/5 1/3 0/4 1 4/15 6/15 3/13
+      Phase II clinical trial
+24
+2/7 3/5 5/8 3/5 1/1 3/4 2/2 1/1 3/7 0/1 5/14 2/5 2/7 * 3/10 *
+2/5 0/1 2/12 0/3 3/9 6/8 2/5 0/2 - - 1/3 -
+1/8 * -
+ Phase II 29 clinical trial
+Phase II 42 clinical trial
+Phase II 40 clinical trial
+Phase II 29 clinical trial
+6 16 3 2 2/6 9/16 0/3
+0/2
+    RR 10 < 30% = a total tumor burden decline of 10–30% from baseline at some point during the study; RR 30 < 50% = a total tumor burden decline of 30–50% from baseline at some point during the study; RR 50 < 100% = a total tumor burden decline of 50–100% from baseline at some point during the study; CRR = a total tumor burden decline of 100% from baseline at some point during the study; Relapse = any total tumor burden decline followed by tumor outgrowth surpassing a size defined as RR (10–30%, 30–50%, 50–100% and 100%); Relapse start = the estimated time, from treatment initiation, at which tumors started to grow out again following the initial response. * Numbers verified by the authors; others were estimated based on published data when exact numbers were not provided.
+
+Cancers 2020, 12, 935 4 of 16
+3. Extrinsic and Intrinsic Primary Resistance Mechanisms
+3.1. Tumor Cell Extrinsic Primary Resistance Mechanisms
+Factors driving therapy resistance can be either tumor cell intrinsic, determined by the traits of the tumor cell itself, or tumor cell extrinsic, involving the cells in the stroma of the TME (Figure 1). The migration of immunosuppressive cells to the TME can inhibit local immune cells from exerting their effector functions. Increased numbers of regulatory T (Treg) cells, myeloid derived suppressor cells (MDSCs), M2 macrophages and pro-tumor N2 neutrophils have all been linked to primary resistance against immunotherapies [46–52]. Although a complete overview of how these immunosuppressive cells exactly contribute to resistance against immunotherapy is still lacking, several underlying mechanisms have been described in detail (Figure 1). Firstly, the expression of ICs (including PD-L1 and CTLA-4) at the surface of these immune suppressive cells provides them with the means to inhibit local T cell activation directly [46,48,53,54]. Additionally, immunosuppressive mediators produced by these cells, including IL-10 and TGF-β, can enhance the establishment of a local network of immunosuppressive cells in the TME. For instance, TGF-β can polarize neutrophils to a pro-tumor, “N2-like” phenotype, thereby limiting the anti-cancer capacity of N1-like neutrophils [55]. Correspondingly, IL-10 and TGF-β can drive the differentiation of monocytes into M2-like tumor-associated macrophages (TAMs), which amongst their other suppressive actions, can also compete with local dendritic cells (DCs) for tumor antigens and consequently inhibit T cell priming [46,56–58]. In addition, IL-10 and TGF-β can limit local T cell priming through the suppression of both DC function and the proliferative capacity of T cells [59,60]. Alternatively, via the production of arginase-1 (Arg-1), inducible nitric oxide synthase (iNOS), reactive oxygen species (ROS), M2 macrophages, MDSCs and N2 neutrophils can inhibit T cell proliferation and function, while promoting the immunosuppressive properties of Treg cells [34,61–65]. Last but not least, TNF-α in the TME may also have a downside as it can bind to TNFR2, which is expressed by regulatory Treg cells and MDSCs to protect them from TNF-α induced death, while in the same way reducing the capacity of M1 macrophages to clear tumor cells [66]. Taken together, Treg cells, M2 macrophages, MDSCs and N2 neutrophils may suppress effector T cells systemically and in the TME, resulting in primary resistance mechanisms during cancer immunotherapy.
+In addition to tumor infiltrating immunosuppressive immune cells, the fibroblasts in tumors contribute to therapy resistance. One important driver of fibroblast activation in the TME is TGF-β, an immunosuppressive mediator found to interfere with the anti-tumor immune response. The TGF-β-driven activation of fibroblasts gives rise to a specific phenotype of immunomodulatory cancer-associated fibroblasts (CAFs). These CAFs, due to their abundance and heterogeneity, can orchestrate the response to cancer immunotherapy via several mechanisms (Figure 1). Firstly, through the release of TGF-β and IL-6, CAFs suppress the proliferation and trafficking capacity of antigen-presenting DCs, thereby interfering with tumor-directed T cell priming [67]. Secondly, through the tight regulation of the local chemokine- and cytokine-gradient, CAFs limit the attraction of T cells to the TME [68,69]. Moreover, TGF-β CAFs can remodel the composition of the extracellular matrix (ECM), resulting in a dense ECM network that poses a physical barrier to T cell infiltration [70]. Furthermore, CAFs can suppress the anti-tumor T cell response in the TME itself, through the upregulation of IC ligands on their cell surfaces [71]. Finally, tumor cells can “hijack” CAF metabolism to meet their metabolic needs, thereby shifting the balance in the metabolic competition between tumor cells and anti-tumor immune cells in favor of the tumor cells [72,73]. Together, these pathways drive CAF-dependent immune evasion and diminished responses to T cell targeted immunotherapies.
+
+  53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+Cancers 2020, 12, 935 5 of 16 Cancers 2020, 12, x FOR PEER REVIEW 6 of 17
+Fiigure11..Assimimpplilfiifeidedvevresrisoinonofotfhethceanccaenrciemrmimumniutyncityclcey,calde,apadteadpftreodmfrCohmenC&heMne&llmMaenll[m74a]nto[7sh4]owto
+tsheotwumthoer ctuelml ionrtrcienlslicinatnridnseixctraindsicexptartihnwsicaypsaitnhwT aceylsl-ibnasTedceilml-bmausendotihmermapuynorethsiesrtapnycer. eTshisetannucme.bTehrse
+rneufemr btoerssterpesfeirnttohestoerpisginatlhceanocreigriinmalmcuanicteyrciymclme.u1n.itTyhceyrcellee.a1s.eTohfecarnelcearsceeollfacnatnigcenrsce(cllanacnetirgceenlls
+death); 2. Cancer antigen presentation (dendritic cells/APCs); 3. Priming and activation (Antigen (cancer cell death); 2. Cancer antigen presentation (dendritic cells/APCs); 3. Priming and activation
+Presenting Cells (APCs) & T cells); 4. The trafficking of T cells to tumors (Cytotoxic T Lymphocytes (Antigen Presenting Cells (APCs) & T cells); 4. The trafficking of T cells to tumors (Cytotoxic T
+(CTLs)); 5. The infiltration of T cells into tumors (CTLs, endothelial cells); 6. The recognition of
+Lymphocytes (CTLs)); 5. The infiltration of T cells into tumors (CTLs, endothelial cells); 6. The
+cancer cells by T cells (CTLs, cancer cells); 7. The killing of cancer cells (immune and cancer cells).
+recognition of cancer cells by T cells (CTLs, cancer cells); 7. The killing of cancer cells (immune and
+CreatedwithBioRender.com.
+cancer cells). Created with BioRender.com.
+3.2. Tumor Cell Intrinsic Primary Resistance Mechanisms
+3.2. Tumor Cell Intrinsic Primary Resistance Mechanisms
+There are also several tumor intrinsic factors that mediate primary resistance against
+There are also several tumor intrinsic factors that mediate primary resistance against
+immunotherapy (Figure 1). The tumor intrinsic factors of primary resistance identified so far include immunotherapy (Figure 1). The tumor intrinsic factors of primary resistance identified so far include (1) alterations in the antigen processing pathway; (2) a lack of tumor antigen expression; (3) the soft- 1) alterations in the antigen processing pathway; 2) a lack of tumor antigen expression; 3) the soft-
+and hard-wired loss of HLA expression; (4) alterations in the signaling pathways of MAPK, PI3K and
+and hard-wired loss of HLA expression; 4) alterations in the signaling pathways of MAPK, PI3K and
+WNT; (5) the constitutive expression of the ligands for IC (e.g., PD-L1 and HLA-E); and 6) resistance to
+WNT; 5) the constitutive expression of the ligands for IC (e.g., PD-L1 and HLA-E); and 6) resistance
+TNF-α and IFN-γ mediated killing [75,76].
+to TNF-α and IFN-γ mediated killing [75,76].
+One way to identify these tumor cell intrinsic mechanisms are loss-of-function in vivo and in vitro
+One way to identify these tumor cell intrinsic mechanisms are loss-of-function in vivo and in
+screens. A study of primary resistance against a combination therapy of αPD-1 with a GM-CSF-secreting vitro screens. A study of primary resistance against a combination therapy of αPD-1 with a GM-CSF-
+secreting tumor cell vaccine applied a genetic in vivo CRISPR-Cas9 screen and identified several potential therapy-resistance genes [77]. Based on the top 50 most-depleted genes, four different signaling pathways associated with the sensitivity of tumor cells to treatment with immunotherapy were revealed, being TNF signaling/NFκB activation, the inhibition of kinase signaling, the ubiquitin-proteasome pathway and antigen processing and presentation [77]. For each of these pathways, a representative gene was selected, based on the highest cumulative score as ranked by the STARS algorithm. These genes were Ripk1 for the TNF signaling/NFκB activation pathway, Ptpn2 for the inhibition of kinase signaling pathway, Stub1 for the ubiquitin-proteasome pathway and H2-T23 for the antigen processing and presentation pathway [77]. Notably, H2-T23 encodes Qa-1b (a mouse homolog of HLA-E), the ligand for the inhibitory receptor NKG2A, for which we demonstrated importance in mechanisms of acquired resistance to cancer vaccines, which may be alleviated by new antibodies to block NKG2A [14,15]. The involvement of the antigen processing and presentation pathway in immunotherapy resistance was confirmed in another CRISPR-based screen, which focused on the genes controlling HLA class I expression [78]. Here, IRF2 was identified as a rate limiting factor for TAP-mediated peptide transport to the endoplasmic reticulum and subsequent N-terminal trimming and thus antigen presentation [78]. IRF2 is frequently downregulated in tumors. TAP deficiency has been demonstrated in many cancer types and shown to correlate with disease progression and clinical outcomes [79–81]. Interestingly, tumor cells with such antigen processing defects still express MHC-I molecules, which then present T cell epitopes associated with impaired peptide processing (TEIPP) [82–84]. Priming TEIPP-specific T cells with vaccines to overcome acquired immune resistance has been proposed as a treatment strategy for tumors with impaired TAP expression, and this approach has been proven effective in inhibiting the outgrowth of immune-escaped tumors in mice [85,86]. Unexpectedly, the expression of MHC-II molecules was also detected on tumor cells and shown to correlate with T cell infiltration and the therapeutic response to CPI, indicating the presence of alternative antigen presentation pathways [87,88]. Notably, a lack of appropriate levels of tumor-specific antigen forms another important intrinsic resistance pathway against CPI [89]. In another screen, for key components determining the susceptibility of tumor cells to adoptively transferred effector cells, the GTPase Cdc42 was identified as a key factor in preventing CTL-induced cell death via MAPK signaling and posttranscriptional Bcl-2 stabilization [90]. Cdc42 is highly expressed in invasive cancers. Oncogenic MAPK signaling results in the production of immunosuppressive factors (e.g., VEGF, IL-6 and IL-10), which inhibit the proliferation and activation status of tumor-specific T cells and DCs [91]. In line with this, loss of the tumor suppressor gene PTEN has been shown to correlate with resistance against cancer immunotherapies, through the enhanced signaling of both the MAPK and PI3K signaling cascades [92,93]. Activation of the PI3K-AKT-mTOR pathway can contribute to therapy resistance by directly promoting tumor cell proliferation and survival, as well as the upregulation of PD-L1 cell surface expression, thereby inhibiting the function of local effector T cells [94]. Moreover, enhanced PI3K signaling via alternative AKT-independent pathways also acts on the antigen presenting pathway, as it results in the downregulation of HLA expression and escape from T cell recognition [95]. In addition to the MAPK and PI3K signaling cascades, the WNT/β-catenin pathway has also been implicated in resistance to cancer immunotherapies. A melanoma study on primary resistance against αPD-L1/αCTLA-4 antibody combination treatment revealed that the activation of the WNT/β-catenin pathway inhibits CD103+ DC-mediated T cell priming, resulting in a decreased infiltration of tumor-specific T cells to the TME [96]. Additionally, soluble melanoma-derived Wnt5a can alter local DC metabolism, leading to increased indoleamine 2,3-dioxygenase 1 (IDO) enzymatic activity and suppressed IL-6 and IL-12 production, thereby creating an immunosuppressive environment that promotes Treg development [97,98]. This IDO-driven Treg increase in the TME has been identified as a resistance mechanism against CTLA-4 and PD-1 CPI [98,99]. Notably, crosstalk between the MAPK, PI3K and WNT signaling pathways through the phosphorylation of cascade components occurs, making the targeting of these pathways to overcome immunotherapy resistance a complex ordeal [100,101].
+Primary resistance to immunotherapy can also be the result of alterations in the TNF-α and IFN-γ signaling pathways protecting tumor cells against TNF-α- and IFN-γ-mediated cell growth regulation and death. A CRISPR-based in vitro and in vivo screen to identify mechanisms allowing tumor escape from CD8+ T cells and natural killer cells showed that the deletion of Casp8, Tnfrsf1a and Ado within the TNF-signaling pathway, or Ifngr1/2, Jak1/2 and Stat1 in the IFN-γ-signaling pathway, protected tumor cells against CD8+ T cell and/or NK cell-mediated killing and blunted the efficacy of anti-tumor responses in vivo [102]. In addition, the upregulation of the TNF receptor 2 (TNFR2) on tumor cells may foster tumor cell growth over TNFR1-induced killing after the binding of TNF-α [96]. Additionally, loss-of-function mutations or the downregulation of genes involved in the IFN-γ signaling pathway— such as Ifngr1, Ifngr2, Jak1/2 and Irf1—were shown in patients who were irresponsive to αCTLA-4 antibody treatment and correlated to primary and adaptive resistance against αPD-L1 checkpoint blockade [103,104]. Primary resistance to CPI via alterations in antigen processing and presentation, as well as in responsiveness to IFN-γ signaling, was confirmed in a predictive biomarker study using single-cell RNA-sequencing (scRNA-seq) data from melanoma patients classified as untreated, CPI responsive or CPI resistant [105]. Taken together, the tumor cell extrinsic and intrinsic mechanisms driving immunotherapeutic resistance are versatile, yet tightly interwoven, making combination therapy an appealing therapeutic approach. It will be of interest to see if strategies that deal with these extrinsic and intrinsic primary resistance mechanisms will elucidate yet-unidentified mechanisms of resistance.
+4. Secondary Resistance Mechanisms
+It is important to realize that most factors determining initial resistance to immunotherapy are likely to also drive the occurrence of secondary immune escape. However, most of the studies have focused on the intrinsic resistance mechanisms.
+Indeed, truncating mutations in JAK 1 and 2 were recently shown to form the basis for a lack of IFN-γ responsiveness in tumor cells and consequently for secondary resistance to CPI [104,106]. Interestingly, prolonged IFN-γ signaling is also one of the intrinsic mechanisms contributing to acquired resistance upon immunotherapy in humans [107]. This tight balance makes the interferon pathway a more challenging therapeutic target regarding acquired resistance against immunotherapy. Furthermore, a loss of antigen expression has been found in the form of epitope loss in CD19 after CAR T cell therapy and the loss of neoepitope expression after adoptive T cell therapy for melanoma [108,109]. One described mechanism driving the downregulation of (neo)antigen expression is promotor hypermethylation. However, this form of transcriptional alteration may only affect a small percentage of antigens, indicating that additional genomic and transcriptomic mechanisms are at play [110]. For example, low nutrient availability in the TME can lead to unresponsiveness to IFN-γ, resulting in decreased HLA class I expression [95]. In addition, an immunotherapy-driven loss of HLA class I expression due to decreased transcriptional expression of specific HLA class I genes was found after treatment with adoptively transferred T cells, anti-CTLA4 and anti-PD1, which can potentially be overcome by epigenetic modulators [111]. Moreover, the complete loss of HLA class I expression, due to the loss of the expression of the subunit beta-2 microglobulin (β2m), has also been found to be a secondary resistance mechanism in patients receiving αPD-1 CPI and after adoptive T cell transfer [112–115].
+Due to limited research on the extrinsic factors fostering the development of secondary resistance to immunotherapy, there are only a few studies reporting the association between the attraction of immunosuppressive cells and the development of secondary resistance. In mice, the relapse of tumors after initial responses to combination therapy including dual CPI and radiotherapy was associated with an increase in Tregs in the TME [116]. These Tregs were phenotypically similar to those that were described to mediate primary resistance against immunotherapies, since RNAseq analysis of these cells revealed an increased expression of genes involved in TGF-β and IL-10 signaling. In another study, the increased expression of Tim-3 on the surface of Tregs in the TME was suggested to inhibit the local anti-tumor T cell response induced by mono CPI in combination with radiotherapy, leading to secondary resistance. Similarly, the accumulation of MDSCs in the TME was shown in patients that developed secondary resistance after initial responses to CPI [117]. These MDSCs were found to express PD-L1 and galectin-9, known ligands for the ICs PD-1 and Tim-3, respectively, providing them with the means to inhibit anti-tumor T cell function directly.
+In summary, the underlying mechanisms driving primary resistance against immunotherapy are abundant and diverse, and most factors determining the initial resistance to immunotherapy may also later drive the occurrence of secondary resistance.
+5. Future Challenges and Conclusions
+In view of the heterogeneity in background, tumor etiology and environmental conditions, it was to be expected that patients, even with the same type of cancer, would display highly variable responses to immunotherapy. The provided examples of therapy resistance indicate that the mechanisms underlying primary and secondary immune evasion can be versatile. Importantly, the complex system of immune regulation in the TME instinctively predicts that secondary resistance results from the interplay of multiple genetic factors, which may not always be identified in knockdown screens of single genes in tumor cells. In order to gain a complete understanding of the mechanisms at play, systematic analyses of therapy resistant tumors should be performed.
+In order to delineate the underlying mechanisms of primary and secondary resistance, we advocate the investigation of so-called dichotomous responses in animal models. Even in the controlled conditions of inbred syngeneic mice and optimized treatment protocols, variation between animals is observed in terms of responsiveness to immunotherapy. This was described for the occurrence of secondary resistance in mice treated with the combination therapy α-CTLA-4 and αPD-1, after cDC1 anti-cancer vaccination and after combined treatment with CPI and an anti-tumor vaccine [118–120]. This dichotomous response makes mouse models an ideal alternative for new studies on the underlying mechanisms involved in secondary resistance to immunotherapy, and in some cases, they also may provide new leads to overcome this type of resistance. For instance, prolonged exposure to IFN-γ can result in acquired resistance to the combination of radiation therapy and α-CTLA-4, in line with human studies [107]. The application of genetically altered mice and tumor cell lines, as well as the application of other CPIs, revealed that this resistance was related to IFN-γ signaling pathway related events, including the upregulation of PD-L1, but also involved other regulatory pathways [107]. Well-defined extrinsic resistance mechanisms, as unraveled in mouse tumor models—with available research reagents, the depletion of antibodies and genetic knock-out systems—need to be confirmed operationally in cancer patients (Figure 2). This requires cancer samples from cohorts of refractory patients treated with the respective form of immunotherapy. Although challenging, we recently showed this to be feasible [121]. Immune suppressive myeloid cells were present at elevated levels in tumor-bearing mice and in patients treated with a therapeutic vaccine, resulting in a lower therapeutic efficacy and the suppression of spontaneous tumor-specific T cell reactivity, respectively [122]. Gemcitabine and the combination of carboplatin and paclitaxel both depleted MDSCs in mice, but only the latter was able to decrease the percentage of immune suppressive MDSCs in cancer patients with stronger spontaneous and vaccine-induced T cell reactivities, as well as result in clinical benefits [52,122,123]. Notably, the standard of care in humans is still directed at the tumor itself (chemotherapy, radiotherapy and surgery), and immunotherapies are, for now, mainly administered to patients with a history of at least one previous anti-cancer therapy. Along these same lines, we have to assume that each form of immunotherapy will yield its own unique resistance mechanism. This, together with human heterogeneity, should be taken into consideration when using mouse models to mirror the human cancer immunotherapy experience. Nevertheless, some acquired resistance mechanisms discovered in mouse tumor models are also operational in cancer patients, validating the use of mouse tumor models to identify not only secondary therapy mechanisms but also ways to overcome them (Figure 2) [106,107,111]. An important question, although harder to address, is what the factors within a tumor that determine the fate of the tumor during immunotherapy in the first place are. In general, this is easily overlooked since treatment responses in animal models are mostly studied at the stage in which regressor mice can be separated from non-regressors after therapy. At this late stage, the predictive factors that determine this outcome might already be lost. In a recent publication, this problem was acknowledged, and the authors proposed the use of a two-tumor model [124]. This allowed them to perform an in-depth ex vivo analysis of the dynamic tumor microenvironment of one surgically removed tumor, while the remaining tumor served for following therapeutic responses later on. While the authors focused on primary resistance against immunotherapy in this publication, the same approach could be used to identify the underlying mechanisms of acquired resistance.
+
+In conclusion, cancer immunotherapy has shown promising results in the clinic. Nevertheless, primary and secondary resistance occurs in the majority of patients, resulting in undesirable low rates of complete remission and overall survival. Studies that address these types of resistance and the underlying mechanisms are urgently needed in order to improve clinical outcomes, if targetable. This requires in-depth genetic studies of tumor intrinsic alterations mediating resistance, as well as of stromal cells in their TME, preferably in dichotomous two-tumor mouse models. Finally, the validation of primary and secondary resistance to immunotherapy in refractory patient cohorts will guide the development of optimal combinatorial therapies counteracting escape.
+
+
+
+
+240 Author Contributions: All authors have designed, written and agreed to the published version of the
+241primmaraynuasncdripste.cMon.Jd.va.Ery.dresigsntaendcteheocficgurrsesin. themajorityofpatients,resultinginundesirablelowrates
+of complete remission and overall survival. Studies that address these types of resistance and the
+242 Funding: MJvE is sponsored by a base fund from the Oncode Institute to SHvdB.
+underlying mechanisms are urgently needed in order to improve clinical outcomes, if targetable. This
+243 Conflicts of Interest: The authors declare no conflict of interest.
+requires in-depth genetic studies of tumor intrinsic alterations mediating resistance, as well as of
+stromal cells in their TME, preferably in dichotomous two-tumor mouse models. Finally, the validation
+244 References
+of primary and secondary resistance to immunotherapy in refractory patient cohorts will guide the
+245deve1l.opmBeranytoFf.;oFpetrimlayalJc.;omSoberinjoamtoartaiaralmtheIr.;apSiegsecloLunRt.e;raTcotrirnegAe.sLc.a;pJem.alA.Globalcanc
+
+
+
+
+237
+238 FiguFreig2u.rAe2w.oArkwflorwkflfowrthfoeritdheenitdifiecnattiifoicnatainondavnadlidvatliodnatoiofnimomfiumnmotuhneorathpeyrarepsyisrteasnicsetamnceechmaencihsmansi.sms.
+  239 CreatCedrweaitehdBwioiRthenBdieorR.ceonmd.er.com.
+In conclusion, cancer immunotherapy has shown promising results in the clinic. Nevertheless,
+240 Author Contributions: All authors have designed, written and agreed to the published version of the
+241primmaraynuasncdripste.cMon.Jd.va.Ery.dresigsntaendcteheocficgurrsesin. themajorityofpatients,resultinginundesirablelowrates
+of complete remission and overall survival. Studies that address these types of resistance and the
+242 Funding: MJvE is sponsored by a base fund from the Oncode Institute to SHvdB.
+underlying mechanisms are urgently needed in order to improve clinical outcomes, if targetable. This
+243 Conflicts of Interest: The authors declare no conflict of interest.
+requires in-depth genetic studies of tumor intrinsic alterations mediating resistance, as well as of
+stromal cells in their TME, preferably in dichotomous two-tumor mouse models. Finally, the validation
+244 References
+of primary and secondary resistance to immunotherapy in refractory patient cohorts will guide the
+245deve1l.opmBeranytoFf.;oFpetrimlayalJc.;omSoberinjoamtoartaiaralmtheIr.;apSiegsecloLunRt.e;raTcotrirnegAe.sLc.a;pJem.alA.Globalcancerstatistics2018: 246 GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA. Cancer J.
+Author Contributions: All authors have designed, written and agreed to the published version of the manuscript. 247 Clin. 2018, 68, 394–424.
+M.J.v.E. designed the figures. All authors have read and agreed to the published version of the manuscript.
+248 2. van der Burg, S.H. Correlates of immune and clinical activity of novel cancer vaccines. Sem. in Immunol. Funding: MJvE is sponsored by a base fund from the Oncode Institute to SHvdB.
+249 2018, 39, 119–136.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Cancers 2020, 12, 935 10 of 16
+References
+1. Bray, F.; Ferlay, J.; Soerjomataram, I.; Siegel L, R.; Torre, A.L.; Jemal, A. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J. Clin. 2018, 68, 394–424. [CrossRef] [PubMed]
+2. Van der Burg, S.H. Correlates of immune and clinical activity of novel cancer vaccines. Semin. Immunol. 2018, 39, 119–136. [CrossRef] [PubMed]
+3. Helissey, C.; Vicier, C.; Champiat, S. The development of immunotherapy in older adults: New treatments, new toxicities? J. Geriatr. Oncol. 2016, 7, 325–333. [CrossRef] [PubMed]
+4. Linsley, P.S.; Greene, J.L.; Brady, W.; Bajorath, J.; Ledbetter, J.A.; Peach, R. Human B7-1 (CD80) and B7-2 (CD86) bind with similar avidities but distinct kinetics to CD28 and CTLA-4 receptors. Immunity 1994, 1, 793–801. [CrossRef]
+5. Riley, J.L.; Mao, M.; Kobayashi, S.; Biery, M.; Burchard, J.; Cavet, G.; Gregson, B.P.; June, C.H.; Linsley, P.S. Modulation of TCR-induced transcriptional profiles by ligation of CD28, ICOS, and CTLA-4 receptors. Proc. Natl. Acad. Sci. USA 2002, 99, 11790–11795. [CrossRef] [PubMed]
+6. Saeidi, A.; Zandi, K.; Cheok, Y.Y.; Saeidi, H.; Wong, W.F.; Lee, C.Y.Q.; Cheong, H.C.; Yong, Y.K.; Larsson, M.; Shankar, E.M. T-cell exhaustion in chronic infections: Reversing the state of exhaustion and reinvigorating optimal protective immune responses. Front. Immunol. 2018, 9. [CrossRef]
+7. Nghiem, P.T.; Bhatia, S.; Lipson, E.J.; Kudchadkar, R.R.; Miller, N.J.; Annamalai, L.; Berry, S.; Chartash, E.K.; Daud, A.; Fling, S.P.; et al. PD-1 blockade with pembrolizumab in advanced merkel-cell carcinoma. N. Engl. J. Med. 2016, 374, 2542–2552. [CrossRef]
+8. Hao, C.; Tian, J.; Liu, H.; Li, F.; Niu, H.; Zhu, B. Efficacy and safety of anti-PD-1 and anti-PD-1 combined with anti-CTLA-4 immunotherapy to advanced melanoma: A systematic review and meta-analysis of randomized controlled trials. Medicine 2017, 96. [CrossRef]
+9. Ferris, R.L.; Blumenschein, G.; Fayette, J.; Guigay, J.; Colevas, A.D.; Licitra, L.; Harrington, K.; Kasper, S.; Vokes, E.E.; Even, C.; et al. Nivolumab for recurrent squamous-cell carcinoma of the head and neck. N. Engl. J. Med. 2016, 375, 1856–1867. [CrossRef]
+10. FDA Approves New Melanoma Treatment Yervoy. Available online: https://www.webmd.com/melanoma- skin-cancer/news/20110325/fda-approves-new-melanoma-treatment-yervoy. (accessed on 11 October 2019).
+11. Raedler, L.A. Keytruda (Pembrolizumab): First PD-1 Inhibitor Approved for Previously Treated Unresectable
+or Metastatic Melanoma. Am. Heal. Drug Benef. 2015, 8, 96–100.
+12. FDA Approves New, Targeted Treatment for Bladder Cancer | FDA. Available online: https://www.fda.gov/
+news-events/press-announcements/fda-approves-new-targeted-treatment-bladder-cancer. (accessed on 11
+October 2019).
+13. Rotte, A.; Jin, J.Y.; Lemaire, V. Mechanistic overview of immune checkpoints to support the rational design of
+their combinations in cancer immunotherapy. Ann. Oncol. 2018, 29, 71–83. [CrossRef] [PubMed]
+14. Van Montfoort, N.; Borst, L.; Korrer, M.J.; Sluijter, M.; Marijt, K.A.; Santegoets, S.J.; van Ham, V.J.; Ehsan, I.; Charoentong, P.; André, P.; et al. NKG2A Blockade Potentiates CD8 T Cell Immunity Induced by Cancer
+Vaccines. Cell 2018, 175, 1744–1755. [CrossRef] [PubMed]
+15. André, P.; Denis, C.; Soulas, C.; Bourbon-Caillet, C.; Lopez, J.; Arnoux, T.; Bléry, M.; Bonnafous, C.; Gauthier, L.;
+Morel, A.; et al. Anti-NKG2A mAb Is a Checkpoint Inhibitor that Promotes Anti-tumor Immunity by
+Unleashing Both T and NK Cells. Cell 2018, 175, 1731–1743.e13.
+16. Tumeh, P.C.; Harview, C.L.; Yearley, J.H.; Shintaku, I.P.; Taylor, E.J.M.; Robert, L.; Chmielowski, B.; Spasic, M.;
+Henry, G.; Ciobanu, V.; et al. PD-1 blockade induces responses by inhibiting adaptive immune resistance.
+Nature 2014, 515, 568–571. [CrossRef] [PubMed]
+17. Dafni, U.; Michielin, O.; Lluesma, S.M.; Tsourti, Z.; Polydoropoulou, V.; Karlis, D.; Besser, M.J.; Haanen, J.;
+Svane, I.M.; Ohashi, P.S.; et al. Efficacy of Adoptive Therapy with Tumor-infiltrating Lymphocytes and Recombinant Interleukin-2 in Advanced Cutaneous Melanoma: A Systematic Review and Meta-analysis. Ann. Oncol. 2019. [CrossRef] [PubMed]
+18. Rosenberg, S.A.; Restifo, N.P. Adoptive cell transfer as personalized immunotherapy for human cancer. Science 2015, 348, 62–68. [CrossRef] [PubMed]
+19. June, C.H.; O’Connor, R.S.; Kawalekar, O.U.; Ghassemi, S.; Milone, M.C. CAR T cell immunotherapy for human cancer. Science 2018, 359, 1361–1365. [CrossRef]
+
+Cancers 2020, 12, 935 11 of 16
+20. Van Der Burg, S.H.; Arens, R.; Ossendorp, F.; Van Hall, T.; Melief, C.J.M. Vaccines for established cancer: Overcoming the challenges posed by immune evasion. Nat. Rev. Cancer 2016, 16, 219–233. [CrossRef]
+21. Yadav, M.; Jhunjhunwala, S.; Phung, Q.T.; Lupardus, P.; Tanguay, J.; Bumbaca, S.; Franci, C.; Cheung, T.K.;
+Fritsche, J.; Weinschenk, T.; et al. Predicting immunogenic tumour mutations by combining mass spectrometry
+and exome sequencing. Nature 2014, 515, 572–576. [CrossRef]
+22. Kreiter, S.; Vormehr, M.; van de Roemer, N.; Diken, M.; Löwer, M.; Diekmann, J.; Boegel, S.; Schrörs, B.;
+Vascotto, F.; Castle, J.C.; et al. Mutant MHC class II epitopes drive therapeutic immune responses to cancer.
+Nature 2015, 520, 692–696. [CrossRef] [PubMed]
+23. Gubin, M.M.; Zhang, X.; Schuster, H.; Caron, E.; Ward, J.P.; Noguchi, T.; Ivanova, Y.; Hundal, J.; Arthur, C.D.;
+Krebber, W.J.; et al. Checkpoint blockade cancer immunotherapy targets tumour-specific mutant antigens.
+Nature 2014, 515, 577–581. [CrossRef] [PubMed]
+24. Keskin, D.B.; Anandappa, A.J.; Sun, J.; Tirosh, I.; Mathewson, N.D.; Li, S.; Oliveira, G.; Giobbie-Hurder, A.;
+Felt, K.; Gjini, E.; et al. Neoantigen vaccine generates intratumoral T cell responses in phase Ib glioblastoma
+trial. Nature 2019, 565, 234–239. [CrossRef] [PubMed]
+25. Hilf, N.; Kuttruff-Coqui, S.; Frenzel, K.; Bukur, V.; Stevanovic ́, S.; Gouttefangeas, C.; Platten, M.; Tabatabai, G.;
+Dutoit, V.; van der Burg, S.H.; et al. Actively personalized vaccination trial for newly diagnosed glioblastoma.
+Nature 2019, 565, 240–245. [CrossRef] [PubMed]
+26. Bagarazzi, M.L.; Yan, J.; Morrow, M.P.; Shen, X.; Parker, R.L.; Lee, J.C.; Giffear, M.; Pankhong, P.; Khan, A.S.;
+Broderick, K.E.; et al. Immunotherapy against HPV16/18 generates potent TH1 and cytotoxic cellular immune
+responses. Sci. Transl. Med. 2012, 4. [CrossRef]
+27. Van Poelgeest, M.I.; Welters, M.J.; Vermeij, R.; Stynenbosch, L.F.; Loof, N.M.; Berends-van der Meer, D.M.;
+Löwik, M.J.; Hamming, I.L.; van Esch, E.M.; Hellebrekers, B.W.; et al. Vaccination against Oncoproteins of HPV16 for Noninvasive Vulvar/Vaginal Lesions: Lesion Clearance Is Related to the Strength of the T-Cell Response. Clin. Cancer Res. 2016, 22, 2342–2350. [CrossRef]
+28. Kenter, G.G.; Welters, M.J.P.; Valentijn, A.R.P.M.; Lowik, M.J.G.; Berends-van der Meer, D.M.A.; Vloon, A.P.G.; Essahsah, F.; Fathers, L.M.; Offringa, R.; Drijfhout, J.W.; et al. Vaccination against HPV-16 oncoproteins for vulvar intraepithelial neoplasia. N. Engl. J. Med. 2009, 361, 1838–1847. [CrossRef]
+29. Trimble, C.L.; Morrow, M.P.; Kraynyak, K.A.; Shen, X.; Dallas, M.; Yan, J.; Edwards, L.; Parker, R.L.; Denny, L.; Giffear, M.; et al. Safety, efficacy, and immunogenicity of VGX-3100, a therapeutic synthetic DNA vaccine targeting human papillomavirus 16 and 18 E6 and E7 proteins for cervical intraepithelial neoplasia 2/3: A randomised, double-blind, placebo-controlled phase 2b trial. Lancet 2015, 386, 2078–2088. [CrossRef]
+30. Massarelli, E.; William, W.; Johnson, F.; Kies, M.; Ferrarotto, R.; Guo, M.; Feng, L.; Lee, J.J.; Tran, H.; Kim, Y.U.; et al. Combining Immune Checkpoint Blockade and Tumor-Specific Vaccine for Patients with Incurable Human Papillomavirus 16-Related Cancer: A Phase 2 Clinical Trial. JAMA Oncol. 2019, 5, 67–73. [CrossRef]
+31. Van den Eertwegh, A.J.M.; Versluis, J.; van den Berg, H.P.; Santegoets, S.J.; van Moorselaar, R.J.; van der Sluis, T.M.; Gall, H.E.; Harding, T.C.; Jooss, K.; Lowy, I.; et al. Combined immunotherapy with granulocyte-macrophage colony-stimulating factor-transduced allogeneic prostate cancer cells and ipilimumab in patients with metastatic castration-resistant prostate cancer: A phase 1 dose-escalation trial. Lancet Oncol. 2012, 13, 509–517. [CrossRef]
+32. Chesney, J.A.; Puzanov, I.; Ross, M.I.; Collichio, F.A.; Milhem, M.M.; Chen, L.; Kim, J.J.; Garbe, C.; Hauschild, A.; Andtbacka, R.H.I. Primary results from a randomized (1:1), open-label phase II study of talimogene laherparepvec (T) and ipilimumab (I) vs I alone in unresected stage IIIB- IV melanoma. J. Clin. Oncol. 2017, 35, 9509. [CrossRef]
+33. John, L.B.; Devaud, C.; Duong, C.P.; Yong, C.S.; Beavis, P.A.; Haynes, N.M.; Chow, M.T.; Smyth, M.J.; Kershaw, M.H.; Darcy, P.K. Anti-PD-1 antibody therapy potently enhances the eradication of established tumors by gene-modified T cells. Clin. Cancer Res. 2013, 19, 5636–5646. [CrossRef] [PubMed]
+34. Burga, R.A.; Thorn, M.; Point, G.R.; Guha, P.; Nguyen, C.T.; Licata, L.A.; DeMatteo, R.P.; Ayala, A.; Joseph Espat, N.; Junghans, R.P.; et al. Liver myeloid-derived suppressor cells expand in response to liver metastases in mice and inhibit the anti-tumor efficacy of anti-CEA CAR-T. Cancer Immunol. Immun. 2015, 64, 817–829. [CrossRef] [PubMed]
+35. Nishino, M.; Giobbie-Hurder, A.; Manos, M.P.; Bailey, N.; Buchbinder, E.I.; Ott, P.A.; Ramaiya, N.H.; Hodi, F.S. Immune-related tumor response dynamics in melanoma patients treated with pembrolizumab: Identifying markers for clinical outcome and treatment decisions. Clin. Cancer Res. 2017, 23, 4671–4679. [CrossRef] [PubMed]
+
+Cancers 2020, 12, 935 12 of 16
+36. Tang, B.; Yan, X.; Sheng, X.; Si, L.; Cui, C.; Kong, Y.; Mao, L.; Lian, B.; Bai, X.; Wang, X.; et al. Safety and clinical activity with an anti-PD-1 antibody JS001 in advanced melanoma or urologic cancer patients. J. Hematol. Oncol. 2019, 12. [CrossRef]
+37. Nishino, M.; Dahlberg, S.E.; Adeni, A.E.; Lydon, C.A.; Hatabu, H.; Jänne, P.A.; Hodi, F.S.; Awad, M.M. Tumor response dynamics of advanced non–small cell lung cancer patients treated with PD-1 inhibitors: Imaging markers for treatment outcome. Clin. Cancer Res. 2017, 23, 5737–5744. [CrossRef]
+38. Brahmer, J.R.; Tykodi, S.S.; Chow, L.Q.; Hwu, W.J.; Topalian, S.L.; Hwu, P.; Drake, C.G.; Camacho, L.H.; Kauh, J.; Odunsi, K.; et al. Safety and activity of anti-PD-L1 antibody in patients with advanced cancer. N. Engl. J. Med. 2012, 366, 2455–2465. [CrossRef]
+39. Sharma, P.; Callahan, M.K.; Bono, P.; Kim, J.; Spiliopoulou, P.; Calvo, E.; Pillai, R.N.; Ott, P.A.; de Braud, F.; Morse, M.; et al. Nivolumab monotherapy in recurrent metastatic urothelial carcinoma (CheckMate 032): a multicentre, open-label, two-stage, multi-arm, phase 1/2 trial. Lancet Oncol. 2016, 17, 1590–1598. [CrossRef]
+40. Galsky, M.D.; Wang, H.; Hahn, N.M.; Twardowski, P.; Pal, S.K.; Albany, C.; Fleming, M.T.; Starodub, A.; Hauke, R.J.; Yu, M.; et al. Phase 2 Trial of Gemcitabine, Cisplatin, plus Ipilimumab in Patients with Metastatic Urothelial Cancer and Impact of DNA Damage Response Gene Mutations on Outcomes. Eur. Urol. 2018, 73, 751–759. [CrossRef]
+41. Mahalingam, D.; Goel, S.; Aparo, S.; Arora, S.P.; Noronha, N.; Tran, H.; Chakrabarty, R.; Selvaggi, G.; Gutierrez, A.; Coffey, M.; et al. A phase ii study of pelareorep (REOLYSIN®) in combination with gemcitabine for patients with advanced pancreatic adenocarcinoma. Cancers 2018, 10, 160. [CrossRef]
+42. Nishida, S.; Ishikawa, T.; Egawa, S.; Koido, S.; Yanagimoto, H.; Ishii, J.; Kanno, Y.; Kokura, S.; Yasuda, H.; Oba, M.S.; et al. Combination gemcitabine and WT1 peptide vaccination improves progression-free survival in advanced pancreatic ductal adenocarcinoma: A phase II randomized study. Cancer Immunol. Res. 2018, 6, 320–331. [CrossRef]
+43. Sterman, D.H.; Alley, E.; Stevenson, J.P.; Friedberg, J.; Metzger, S.; Recio, A.; Moon, E.K.; Haas, A.R.; Vachani, A.; Katz, S.I.; et al. Pilot and feasibility trial evaluating immuno-gene therapy of malignant mesothelioma using intrapleural delivery of adenovirus-IFNa combined with chemotherapy. Clin. Cancer Res. 2016, 22, 3791–3800. [CrossRef] [PubMed]
+44. Stevanovic, S.; Helman, S.R.; Wunderlich, J.R.; Langhan, M.M.; Doran, S.L.; Kwong, M.L.M.; Somerville, R.P.T.; Klebanoff, C.A.; Kammula, U.S.; Sherry, R.M.; et al. A Phase II Study of Tumor-infiltrating Lymphocyte Therapy for Human Papillomavirus–associated Epithelial Cancers. Clin. Cancer Res. 2019, 25, 1486–1493. [CrossRef] [PubMed]
+45. Brahmer, J.; Reckamp, K.L.; Baas, P.; Crinò, L.; Eberhardt, W.E.E.; Poddubskaya, E.; Antonia, S.; Pluzanski, A.; Vokes, E.E.; Holgado, E.; et al. Nivolumab versus docetaxel in advanced squamous-cell non-small-cell lung cancer. N. Engl. J. Med. 2015, 373, 123–135. [CrossRef] [PubMed]
+46. Saleh, R.; Elkord, E. Treg-mediated acquired resistance to immune checkpoint inhibitors. Cancer Lett. 2019, 457, 168–179. [CrossRef] [PubMed]
+47. De Palma, M.; Lewis, C.E. Macrophage regulation of tumor responses to anticancer therapies. Cancer Cell 2013, 23, 277–286. [CrossRef] [PubMed]
+48. Ruffell, B.; Coussens, L.M. Macrophages and therapeutic resistance in cancer. Cancer Cell 2015, 27, 462–472. [CrossRef]
+49. Meyer, C.; Cagnon, L.; Costa-Nunes, C.M.; Baumgaertner, P.; Montandon, N.; Leyvraz, L.; Michielin, O.; Romano, E.; Speiser, D.E. Frequencies of circulating MDSC correlate with clinical outcome of melanoma patients treated with ipilimumab. Cancer Immunol. Immun. 2014, 63, 247–257. [CrossRef]
+50. Capone, M.; Giannarelli, D.; Mallardo, D.; Madonna, G.; Festino, L.; Grimaldi, A.M.; Vanella, V.; Simeone, E.; Paone, M.; Palmieri, G.; et al. Baseline neutrophil-to-lymphocyte ratio (NLR) and derived NLR could predict overall survival in patients with advanced melanoma treated with nivolumab. J. Immunother. Cancer 2018, 6, 1–7. [CrossRef]
+51. Zer, A.; Sung, M.R.; Walia, P.; Khoja, L.; Maganti, M.; Labbe, C.; Shepherd, F.A.; Bradbury, P.A.; Feld, R.; Liu, G.; et al. Correlation of Neutrophil to Lymphocyte Ratio and Absolute Neutrophil Count With Outcomes With PD-1 Axis Inhibitors in Patients With Advanced Non–Small-Cell Lung Cancer. Clin. Lung Cancer 2018, 19, 426–434.e1. [CrossRef]
+
+Cancers 2020, 12, 935 13 of 16
+52. Melief, C.J.M.; Welters, M.J.; Vergote, I.; Kroep, J.R.; Kenter, G.G.; Ottevanger, N.; Tjalma, W.A.; Denys, H.; van Poelgeest, M.; Nijman, H.W.; et al. A strong HPV-specific T-cell response after chemo-immunotherapy for advanced cervical cancer is associated with prolonged survival. Sci. Transl. Med. 2020, 12.
+53. Liu, Y.; Yu, Y.; Yang, S.; Zeng, B.; Zhang, Z.; Jiao, G.; Zhang, Y.; Cai, L.; Yang, R. Regulation of arginase i activity and expression by both PD-1 and CTLA-4 on the myeloid-derived suppressor cells. Cancer Immunol. Immun. 2009, 58, 687–697. [CrossRef] [PubMed]
+54. Singel, K.L.; Emmons, T.R.; Khan, A.N.H.; Mayor, P.C.; Shen, S.; Wong, J.T.; Morrell, K.; Eng, K.H.; Mark, J.; Bankert, R.B.; et al. Mature neutrophils suppress T cell immunity in ovarian cancer microenvironment. JCI Insight 2019, 4. [CrossRef] [PubMed]
+55. Granot, Z.; Jablonska, J. Distinct Functions of Neutrophil in Cancer and Its Regulation. Mediat. Inflamm. 2015. [CrossRef]
+56. Chuang, Y.; Hung, M.E.; Cangelose, B.K.; Leonard, J.N. Regulation of the IL-10-driven macrophage phenotype under incoherent stimuli. Innate Immun. 2016, 22, 647–657. [CrossRef]
+57. Flavell, R.A.; Sanjabi, S.; Wrzesinski, S.H.; Licona-Limón, P. The polarization of immune cells in the tumour environment by TGFbeta. Nat. Rev. Immunol. 2010, 10, 554–567. [CrossRef] [PubMed]
+58. Byrne, S.N.; Knox, M.C.; Halliday, G.M. TGFβ is responsible for skin tumour infiltration by macrophages enabling the tumours to escape immune destruction. Immunol. Cell Biol. 2008, 86, 92–97. [CrossRef]
+59. Fu, C.; Jiang, A. Dendritic Cells and CD8 T Cell Immunity in Tumor Microenvironment. Front. Immunol. 2018, 9, 3059. [CrossRef]
+60. Tormoen, G.W.; Crittenden, M.R.; Gough, M.J. Role of the immunosuppressive microenvironment in immunotherapy. Adv. Radiat. Oncol. 2018, 3, 520–526. [CrossRef]
+61. Brown, J.M.; Recht, L.; Strober, S. The Promise of Targeting Macrophages in Cancer Therapy. Clin. Cancer Res. 2017, 23, 3241–3250. [CrossRef]
+62. Bronte, V.; Serafini, P.; De Santo, C.; Marigo, I.; Tosello, V.; Mazzoni, A.; Segal, D.M.; Staib, C.; Lowel, M.; Sutter, G.; et al. IL-4-Induced Arginase 1 Suppresses Alloreactive T Cells in Tumor-Bearing Mice. J. Immunol. 2003, 170, 270–278. [CrossRef]
+63. Weinberg, F.; Ramnath, N.; Nagrath, D. Reactive oxygen species in the tumor microenvironment: An overview. Cancers 2019, 11, 1191. [CrossRef] [PubMed]
+64. OuYang, L.Y.; Wu, X.J.; Ye, S.B.; Zhang, R.X.; Li, Z.L.; Liao, W.; Pan, Z.Z.; Zheng, L.M.; Zhang, X.S.; Wang, Z.; et al. Tumor-induced myeloid-derived suppressor cells promote tumor progression through oxidative metabolism in human colorectal cancer. J. Transl. Med. 2015, 13, 47. [CrossRef]
+65. Rotondo, R.; Barisione, G.; Mastracci, L.; Grossi, F.; Orengo, A.M.; Costa, R.; Truini, M.; Fabbi, M.; Ferrini, S.; Barbieri, O. IL-8 induces exocytosis of arginase 1 by neutrophil polymorphonuclears in nonsmall cell lung cancer. Int. J. Cancer 2009, 125, 887–893. [CrossRef] [PubMed]
+66. Sheng, Y.; Li, F.; Qin, Z. TNF receptor 2 makes tumor necrosis factor a friend of tumors. Front. Immunol. 2018, 9. [CrossRef] [PubMed]
+67. Harryvan, T.J.; Verdegaal, E.M.E.; Hardwick, J.C.H.; Hawinkels, L.J.A.C.; van der Burg, S.H. Targeting of the Cancer-Associated Fibroblast—T-Cell Axis in Solid Malignancies. J. Clin. Med. 2019, 8, 1989. [CrossRef] [PubMed]
+68. Mariathasan, S.; Turley, S.J.; Nickles, D.; Castiglioni, A.; Yuen, K.; Wang, Y.; Kadel, E.E., III; Koeppen, H.; Astarita, J.L.; Cubas, R.; et al. TGFβ attenuates tumour response to PD-L1 blockade by contributing to exclusion of T cells. Nature 2018, 554, 544–548. [CrossRef]
+69. Tauriello, D.V.F.; Palomo-Ponce, S.; Stork, D.; Berenguer-Llergo, A.; Badia-Ramentol, J.; Iglesias, M.; Sevillano, M.; Ibiza, S.; Cañellas, A.; Hernando-Momblona, X.; et al. TGFβ drives immune evasion in genetically reconstituted colon cancer metastasis. Nature 2018, 554, 538–543. [CrossRef]
+70. Chakravarthy, A.; Khan, L.; Bensler, N.P.; Bose, P.; De Carvalho, D.D. TGF-β-associated extracellular matrix genes link cancer-associated fibroblasts to immune evasion and immunotherapy failure. Nat. Commun. 2018, 9, 1–10. [CrossRef]
+71. Lakins, M.A.; Ghorani, E.; Munir, H.; Martins, C.P.; Shields, J.D. Cancer-associated fibroblasts induce antigen-specific deletion of CD8 + T Cells to protect tumour cells. Nat. Commun. 2018, 9, 1–9. [CrossRef]
+72. Yang, L.; Achreja, A.; Yeung, T.L.; Mangala, L.; Jiang, D.; Han, C.; Baddour, J.; Marini, J.C.; Ni, J.; Nakahara, R.; et al. Targeting Stromal Glutamine Synthetase in Tumors Disrupts Tumor Microenvironment-Regulated Cancer Cell Growth. Cell Metab. 2016, 24, 685–700. [CrossRef]
+
+Cancers 2020, 12, 935 14 of 16
+73. Gupta, S.; Roy, A.; Dwarakanath, B.S. Metabolic cooperation and competition in the tumor microenvironment: Implications for therapy. Front. Oncol. 2017, 7. [CrossRef] [PubMed]
+74. Chen, D.S.; Mellman, I. Oncology meets immunology: The cancer-immunity cycle. Immunity 2013, 39, 1–10. [CrossRef] [PubMed]
+75. Sharma, P.; Hu-Lieskovan, S.; Wargo, J.A.; Ribas, A. Primary, Adaptive, and Acquired Resistance to Cancer Immunotherapy. Cell 2017, 168, 707–723. [CrossRef] [PubMed]
+76. Kalbasi, A.; Ribas, A. Tumour-intrinsic resistance to immune checkpoint blockade. Nat. Rev. Immunol. 2020, 20, 25–39. [CrossRef] [PubMed]
+77. Manguso, R.T.; Pope, H.W.; Zimmer, M.D.; Brown, F.D.; Yates, K.B.; Miller, B.C.; Collins, N.B.; Bi, K.; LaFleur, M.W.; Juneja, V.R.; et al. In vivo CRISPR screening identifies Ptpn2 as a cancer immunotherapy target. Nature 2017, 547, 413–418. [CrossRef]
+78. Kriegsman, B.A.; Vangala, P.; Chen, B.J.; Meraner, P.; Brass, A.L.; Garber, M.; Rock, K.L. Frequent Loss of IRF2 in Cancers Leads to Immune Evasion through Decreased MHC Class I Antigen Presentation and Increased PD-L1 Expression. J. Immunol. 2019, 203, 1999–2010. [CrossRef]
+79. Tao, J.; Li, Y.; Liu, Y.Q.; Li, L.; Liu, J.; Shen, X.; Shen, G.X.; Tu, Y.T. Expression of transporters associated with antigen processing and human leucocyte antigen class I in malignant melanoma and its association with prognostic factors. Br. J. Dermatol. 2008, 158, 88–94. [CrossRef]
+80. Meissner, M.; Reichert, T.E.; Kunkel, M.; Gooding, W.; Whiteside, T.L.; Ferrone, S.; Seliger, B. Defects in the human leukocyte antigen class I antigen-processing machinery in head and neck squamous cell carcinoma: Association with clinical outcome. Clin. Cancer Res. 2005, 11, 2552–2560. [CrossRef]
+81. Vitale, M.; Pelusi, G.; Taroni, B.; Gobbi, G.; Micheloni, C.; Rezzani, R.; Donato, F.; Wang, X.; Ferrone, S. HLA class I antigen down-regulation in primary ovary carcinoma lesions: association with disease stage. Clin. Cancer Res. 2005, 11, 67–72.
+82. Doorduijn, E.M.; Sluijter, M.; Querido, B.J.; Oliveira, C.C.; Achour, A.; Ossendorp, F.; van der Burg, S.H.; van Hall, T. TAP-independent self-peptides enhance T cell recognition of immune-escaped tumors. J. Clin. Invest. 2016, 126, 784–794. [CrossRef]
+83. Marijt, K.A.; Doorduijn, E.M.; van Hall, T. TEIPP antigens for T-cell based immunotherapy of immune-edited HLA class Ilow cancers. Mol. Immunol. 2018. [CrossRef] [PubMed]
+84. Marijt, K.A.; Blijleven, L.; Verdegaal, E.M.E.; Kester, M.G.; Kowalewski, D.J.; Rammensee, H.G.; Stevanovic ́, S.; Heemskerk, M.H.M.; van der Burg, S.H.; van Hall, T. Identification of non-mutated neoantigens presented by TAP-deficient tumors. J. Exp. Med. 2018, 215, 2325–2337. [CrossRef] [PubMed]
+85. Doorduijn, E.M.; Sluijter, M.; Marijt, K.A.; Querido, B.J.; van der Burg, S.H.; van Hall, T. T cells specific for a TAP-independent self-peptide remain naïve in tumor-bearing mice and are fully exploitable for therapy. Oncoimmunology 2018, 7. [CrossRef] [PubMed]
+86. Garrido, G.; Schrand, B.; Rabasa, A.; Levay, A.; D’Eramo, F.; Berezhnoy, A.; Modi, S.; Gefen, T.; Marijt, K.; Doorduijn, E.; et al. Tumor-targeted silencing of the peptide transporter TAP induces potent antitumor immunity. Nat. Commun. 2019, 10, 1–13. [CrossRef]
+87. Johnson, D.B.; Estrada, M.V.; Salgado, R.; Sanchez, V.; Doxie, D.B.; Opalenik, S.R.; Vilgelm, A.E.; Feld, E.; Johnson, A.S.; Greenplate, A.R.; et al. Melanoma-specific MHC-II expression represents a tumour-autonomous phenotype and predicts response to anti-PD-1/PD-L1 therapy. Nat. Commun. 2016, 7, 1–10. [CrossRef]
+88. Johnson, D.B.; Nixon, M.J.; Wang, Y.; Wang, D.Y.; Castellanos, E.; Estrada, M.V.; Ericsson-Gonzalez, P.I.; Cote, C.H.; Salgado, R.; Sanchez, V.; et al. Tumor-specific MHC-II expression drives a unique pattern of resistance to immunotherapy via LAG-3/FCRL6 engagement. JCI Insight 2018, 3.
+89. Kim, J.Y.; Kronbichler, A.; Eisenhut, M.; Hong, S.H.; van der Vliet, H.J.; Kang, J.; Shin, J.I.; Gamerith, G. Tumor mutational burden and efficacy of immune checkpoint inhibitors: A systematic review and meta-analysis. Cancers 2019, 11, 1798. [CrossRef]
+90. Marques, C.A.; Hähnel, P.S.; Wölfel, C.; Thaler, S.; Huber, C.; Theobald, M.; Schuler, M. An immune escape screen reveals Cdc42 as regulator of cancer susceptibility to lymphocyte-mediated tumor suppression. Blood 2008, 111, 1413–1419. [CrossRef]
+91. Sumimoto, H.; Imabayashi, F.; Iwata, T.; Kawakami, Y. The BRAF-MAPK signaling pathway is essential for cancer-immune evasion in human melanoma cells. J. Exp. Med. 2006, 203, 1651–1656. [CrossRef]
+
+Cancers 2020, 12, 935 15 of 16
+92. Peng, W.; Chen, J.Q.; Liu, C.; Malu, S.; Creasy, C.; Tetzlaff, M.T.; Xu, C.; McKenzie, J.A.; Zhang, C.; Liang, X.; et al. Loss of PTEN promotes resistance to T cell–mediated immunotherapy. Cancer Discov. 2016, 6, 202–216. [CrossRef]
+93. Ebbesen, S.H.; Scaltriti, M.; Bialucha, C.U.; Morse, N.; Kastenhuber, E.R.; Wen, H.Y.; Dow, L.E.; Baselga, J.; Lowe, S.W. PTEN Loss promotes MAPK pathway dependency in HER2/neu breast carcinomas. Proc. Natl. Acad. Sci. USA 2016, 113, 3030–3035. [CrossRef] [PubMed]
+94. Lastwika, K.J.; Wilson, W., III; Li, Q.K.; Norris, J.; Xu, H.; Ghazarian, S.R.; Kitagawa, H.; Kawabata, S.; Taube, J.M.; Yao, S.; et al. Control of PD-L1 expression by oncogenic activation of the AKT-mTOR pathway in non-small cell lung cancer. Cancer Res. 2016, 76, 227–238. [CrossRef] [PubMed]
+95. Marijt, K.A.; Sluijter, M.; Blijleven, L.; Tolmeijer, S.H.; Scheeren, F.A.; van der Burg, S.H.; van Hall, T. Metabolic stress in cancer cells induces immune escape through a PI3K-dependent blockade of IFNγreceptor signaling. J. Immunother. Cancer 2019, 7.
+96. Spranger, S.; Bao, R.; Gajewski, T.F. Melanoma-intrinsic β-catenin signalling prevents anti-tumour immunity. Nature 2015, 523, 231–235. [CrossRef] [PubMed]
+97. Holtzhausen, A.; Zhao, F.; Evans, K.S.; Tsutsui, M.; Orabona, C.; Tyler, D.S.; Hanks, B.A. Melanoma-Derived Wnt5a Promotes Local Dendritic-Cell Expression of IDO and Immunotolerance: Opportunities for Pharmacologic Enhancement of Immunotherapy. Cancer Immunol. Res. 2015, 3. [CrossRef] [PubMed]
+98. Zhao, F.; Xiao, C.; Evans, K.S.; Theivanthiran, T.; DeVito, N.; Holtzhausen, A.; Liu, J.; Liu, X.; Boczkowski, D.; Nair, S.; et al. Paracrine Wnt5a-β-Catenin Signaling Triggers a Metabolic Program that Drives Dendritic Cell Tolerization. Immunity 2018, 48, 147–160.e7. [CrossRef]
+99. Holmgaard, R.B.; Zamarin, D.; Munn, D.H.; Wolchok, J.D.; Allison, J.P. Indoleamine 2,3-dioxygenase is a critical resistance mechanism in anti-tumor T cell immunotherapy targeting CTLA-4. J. Immunother. Cancer 2013, 1, 77. [CrossRef]
+100. Thompson,M.;Nejak-Bowen,K.;Monga,S.P.S.TargetingtheWntPathwayinCancer;Springer:NewYork,NY, USA, 2011; pp. 51–80.
+101. Wang,X.H.;Meng,X.W.;Sun,X.;Liu,B.R.;Han,M.Z.;DU,Y.J.;Song,Y.Y.;Xu,W.Wnt/β-cateninsignaling regulates MAPK and Akt1 expression and growth of hepatocellular carcinoma cells. Neoplasma 2011, 58. [CrossRef]
+102. Kearney,C.J.;Vervoort,S.J.;Hogg,S.J.;Ramsbottom,K.M.;Freeman,A.J.;Lalaoui,N.;Pijpers,L.;Michie,J.; Brown, K.K.; Knight, D.A.; et al. Tumor immune evasion arises through loss of TNF sensitivity. Sci. Immunol. 2018, 3. [CrossRef]
+103. Gao,J.;ZhichangShi,L.;Zhao,H.;Chen,K.;Xiong,L.;He,Q.;Chen,T.;Roszik,J.;Bernatchez,C.;Woodman,S.E.; et al. Loss of IFN-γ Pathway Genes in Tumor Cells as a Mechanism of Resistance to Anti-CTLA-4 Therapy. Cell 2016, 167, 397–404.e9. [CrossRef]
+104. Shin,D.S.;Zaretsky,J.M.;Escuin-Ordinas,H.;Garcia-Diaz,A.;Hu-Lieskovan,S.;Kalbasi,A.;Grasso,C.S.; Hugo, W.; Sandoval, S.; Torrejon, D.Y.; et al. Primary resistance to PD-1 blockade mediated by JAK1/2 mutations. Cancer Discov. 2017, 7, 188–201. [CrossRef] [PubMed]
+105. Jerby-Arnon,L.;Shah,P.;Cuoco,M.S.;Rodman,C.;Su,M.J.;Melms,J.C.;Leeson,R.;Kanodia,A.;Mei,S.; Lin, J.R.; et al. A Cancer Cell Program Promotes T Cell Exclusion and Resistance to Checkpoint Blockade. Cell 2018, 175, 984–997.e24. [CrossRef] [PubMed]
+106. Zaretsky,J.M.;Garcia-Diaz,A.;Shin,D.S.;Escuin-Ordinas,H.;Hugo,W.;Hu-Lieskovan,S.;Torrejon,D.Y.; Abril-Rodriguez, G.; Sandoval, S.; Barthly, L.; et al. Mutations associated with acquired resistance to PD-1 blockade in melanoma. N. Engl. J. Med. 2016, 375, 819–829. [CrossRef] [PubMed]
+107. Benci,J.L.;Xu,B.;Qiu,Y.;Wu,T.J.;Dada,H.;Twyman-SaintVictor,C.;Cucolo,L.;Lee,D.S.M.;Pauken,K.E.; Huang, A.C.; et al. Tumor Interferon Signaling Regulates a Multigenic Resistance Program to Immune Checkpoint Blockade. Cell 2016, 167, 1540–1554.e12. [CrossRef]
+108. Ruella,M.;Barrett,D.M.;Kenderian,S.S.;Shestova,O.;Hofmann,T.J.;Perazzelli,J.;Klichinsky,M.;Aikawa,V.; Nazimuddin, F.; Kozlowski, M.; et al. Dual CD19 and CD123 targeting prevents antigen-loss relapses after CD19-directed immunotherapies. J. Clin. Invest. 2016, 126, 3814–3826. [CrossRef]
+109. Verdegaal, E.M.E.; de Miranda, N.F.C.C.; Visser, M.; Harryvan, T.; van Buuren, M.M.; Andersen, R.S.; Hadrup, S.R.; van der Minne, C.E.; Schotte, R.; Spits, H.; et al. Neoantigen landscape dynamics during human melanoma-T cell interactions. Nature 2016, 536, 91–95. [CrossRef]
+
+Cancers 2020, 12, 935 16 of 16
+110. Rosenthal,R.;LaroseCadieux,E.;Salgado,R.;AlBakir,M.;Moore,D.A.;Hiley,C.T.;Lund,T.;Tanic ́,M.; Reading, J.L.; Joshi, K.; et al. Neoantigen-directed immune escape in lung cancer evolution. Nature 2019, 567, 479–485. [CrossRef]
+111. Paulson,K.G.;Voillet,V.;McAfee,M.S.;Hunter,D.S.;Wagener,F.D.;Perdicchio,M.;Valente,W.J.;Koelle,S.J.; Church, C.D.; Vandeven, N.; et al. Acquired cancer resistance to combination immunotherapy from transcriptional loss of class I HLA. Nat. Commun. 2018, 9. [CrossRef]
+112. Yazdi, M.T.; van Riet, S.; van Schadewijk, A.; Fiocco, M.; van Hall, T.; Taube, C.; Hiemstra, P.S.; van der Burg, S.H. The positive prognostic effect of stromal CD8+ tumor-infiltrating T cells is restrained by the expression of HLA-E in non-small cell lung carcinoma. Oncotarget 2016, 7, 3477–3488. [CrossRef]
+113. Gettinger,S.;Choi,J.;Hastings,K.;Truini,A.;Datar,I.;Sowell,R.;Wurtz,A.;Dong,W.;Cai,G.;Melnick,M.A.; et al. Impaired HLA class I antigen processing and presentation as a mechanism of acquired resistance to immune checkpoint inhibitors in lung cancer. Cancer Discov. 2017, 7, 1420–1435. [CrossRef]
+114. Restifo, N.P.; Marincola, F.M.; Kawakami, Y.; Taubenberger, J.; Yannelli, J.R.; Rosenberg, S.A. Loss of functional beta2-microglobulin in metastatic melanomas from five patients receiving immunotherapy. J. Natl. Cancer Inst. 1996, 88, 100–108. [CrossRef] [PubMed]
+115. Tran,E.;Robbins,P.F.;Lu,Y.C.;Prickett,T.D.;Gartner,J.J.;Jia,L.;Pasetto,A.;Zheng,Z.;Ray,S.;Groh,E.M.; et al. T-cell transfer therapy targeting mutant KRAS in cancer. N. Engl. J. Med. 2016, 375, 2255–2262. [CrossRef] [PubMed]
+116. Oweida,A.;Hararah,M.;Phan,A.V.;Binder,D.C.;Bhatia,S.;Lennon,S.;Bukkapatnam,S.;vanCourt,B.; Uyanga, N.; Darragh, L.; et al. Resistance to radiotherapy and PD-L1 blockade is mediated by TIM-3 upregulation and regulatory T cell infiltration. Transl. Cancer Mech. Therapy 2018. [CrossRef] [PubMed]
+117. Limagne, E.; Richard, C.; Thibaudin, M.; Fumet, J.D.; Truntzer, C.; Lagrange, A.; Favier, L.; Coudert, B.; Ghiringhellia, F. Tim-3/galectin-9 pathway and mMDSC control primary and secondary resistances to PD-1 blockade in lung cancer patients. Oncoimmunology 2019, 8, e1564505. [CrossRef] [PubMed]
+118. Du,X.;Liu,M.;Su,J.;Zhang,P.;Tang,F.;Ye,P.;Devenport,M.;Wang,X.;Zhang,Y.;Liu,Y.;etal.Uncoupling therapeutic from immunotherapy-related adverse effects for safer and effective anti-CTLA-4 antibodies in CTLA4 humanized mice. Cell Res. 2018, 28, 433–447. [CrossRef]
+119. Wculek, S.K.; Amores-Iniesta, J.; Conde-Garrosa, R.; Khouili, S.C.; Melero, I.; Sancho, D. Effective cancer immunotherapy by natural mouse conventional type-1 dendritic cells bearing dead tumor antigen. J. Immunother. Cancer 2019, 7. [CrossRef]
+120. Durham,N.M.;Mulgrew,K.;McGlinchey,K.;Monks,N.R.;Ji,H.;Herbst,R.;Suzich,J.;Hammond,S.A.; Kelly, E.J. Oncolytic VSV Primes Differential Responses to Immuno-oncology Therapy. Mol. Ther. 2017, 25, 1917–1932. [CrossRef]
+121. Hurkmans,D.P.;Kuipers,M.E.;Smit,J.;vanMarion,R.;Mathijssen,R.H.J.;Postmus,P.E.;Hiemstra,P.S.; Aerts, J.G.J.V.; von der Thüsen, J.H.; van der Burg, S.H. Tumor mutational load, CD8+ T cells, expression of PD-L1 and HLA class I to guide immunotherapy decisions in NSCLC patients. Cancer Immunol. Immunother. 2020, 1–7. [CrossRef]
+122. Welters,M.J.;vanderSluis,T.C.;vanMeir,H.;Loof,N.M.;vanHam,V.J.;vanDuikeren,S.;Santegoets,S.J.; Arens, R.; de Kam, M.L.; Cohen, A.F.; et al. Vaccination during myeloid cell depletion by cancer chemotherapy fosters robust T cell responses. Sci. Transl. Med. 2016, 7, 334ra52. [CrossRef]
+123. Santegoets,S.J.A.M.;deGroot,A.F.;Dijkgraaf,E.M.;CarnazSimões,A.M.;vanderNoord,V.E.;vanHam,J.J.; Welters, M.J.P.; Kroep, J.R.; van der Burg, S.H. The blood mMDSC to DC ratio is a sensitive and easy to assess independent predictive factor for epithelial ovarian cancer survival. Oncoimmunology 2018, 7, e1465166. [CrossRef]
+124. Zemek,R.M.;DeJong,E.;LoongChin,W.;Schuster,I.S.;Fear,V.S.;Casey,T.H.;Forbes,C.;Dart,S.J.;Leslie,C.; Zaitouny, A.; et al. Sensitization to immune checkpoint blockade through activation of a STAT1/NK axis in the tumor microenvironment. Sci. Transl. Med. 11 2019, eaav7816. [CrossRef] [PubMed]
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+ 
