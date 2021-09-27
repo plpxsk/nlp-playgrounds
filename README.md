@@ -1,5 +1,8 @@
 # NLP For Medicine Playgrounds
 
+# Data
+
+Train and test data obtained as in #1 and #2.
 
 # References
 
