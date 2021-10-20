@@ -4,6 +4,10 @@
 
 Classify medical abstracts into topics. See `/projects/abstracts`
 
+# Course TLDR/Notes
+
+See `notes.md`
+
 # Data
 
 Train and test data obtained as in #1 and #2.
