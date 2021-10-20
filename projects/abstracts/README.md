@@ -1,6 +1,6 @@
 # Grouping abstracts
 
-![App](screenshot.jpg)
+![App](screenshot.png)
 
 For a sample of 18 medical abstracts, find clusters (topics) with SVD, NMF, and
 TF-IDF
