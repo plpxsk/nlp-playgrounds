@@ -1,2 +1,2 @@
 prev:
-	streamlit run app.py --server.runOnSave TRUE & 
+	streamlit run app.py --server.runOnSave TRUE
