@@ -1,5 +1,9 @@
 # NLP For Medicine Playgrounds
 
+# Projects
+
+Classify medical abstracts into topics. See `/projects/abstracts`
+
 # Data
 
 Train and test data obtained as in #1 and #2.

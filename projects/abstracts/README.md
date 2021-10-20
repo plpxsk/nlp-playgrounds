@@ -5,5 +5,5 @@ TF-IDF
 
 # App
 
-Streamlit app can be installed from `requirements` and previewed locally with
-`make prev`.
+Streamlit app can be installed from `requirements.txt` and previewed locally
+with `make prev`.
