@@ -22,7 +22,7 @@ def get_words_counter(words, remove_stop=False):
 
 
 def get_data():
-    with open("../abstracts_manual.txt") as f:
+    with open("abstracts_manual.txt") as f:
         x = f.read()
     x = x.split("\n\n")
     x = [i.replace("\n", " ") for i in x]
@@ -107,21 +107,21 @@ def main(abstracts, vectors):
     st.markdown("## Cluster abstracts")
     n_clusters = st.slider("Select number of clusters. Use `1` for top topics among entire corpus.",  # noqa
                            1, len(abstracts), value=3)
-    st.markdown("### NMF")
+    st.markdown("### NMF clusters")
     H1, W1 = run_model(vectors, "nmf", n_clusters)
     r = show_topics(H1, num_top_words)
     r
-    st.markdown("Members:")
+    st.markdown("Membership:")
     for i in range(n_clusters):
         m = get_members_for_cluster(W1, i)
         st.write(f"Cluster {i}: {m}")
     add_abstract_viewer(abstracts, 2)
 
-    st.markdown("### TF-IDF")
+    st.markdown("### TF-IDF Clusters")
     H1, W1 = run_model(vectors, "tfidf", n_clusters)
     r = show_topics(H1, num_top_words)
     r
-    st.markdown("Members:")
+    st.markdown("Membership:")
     for i in range(n_clusters):
         m = get_members_for_cluster(W1, i)
         st.write(f"Cluster {i}: {m}")
