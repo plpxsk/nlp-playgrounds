@@ -22,7 +22,7 @@ def get_words_counter(words, remove_stop=False):
 
 
 def get_data():
-    with open("abstracts_manual.txt") as f:
+    with open("app/abstracts_manual.txt") as f:
         x = f.read()
     x = x.split("\n\n")
     x = [i.replace("\n", " ") for i in x]
