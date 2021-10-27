@@ -1,0 +1,352 @@
+Lung cancer is the number one cause of cancer-related deaths. The malignancy is
+characterized by dismal prognosis and poor clinical outcome mostly due to
+advanced-stage at diagnosis, thereby inflicting a heavy burden on public health
+worldwide. Recent breakthroughs in immunotherapy have greatly benefited a subset 
+of lung cancer patients, and more importantly, they are undauntedly bringing
+forth a paradigm shift in the drugs approved for cancer treatment, by introducing
+“tumor-type agnostic therapies”. Yet, and to fulfill immunotherapy's potential of
+personalized cancer treatment, demarcating the immune and genomic landscape of
+cancers at their earliest possible stages will be crucial to identify ideal
+targets for early treatment and to predict how a particular patient will fare
+with immunotherapy. Recent genomic surveys of premalignant lung cancer have shed 
+light on early alterations in the evolution of lung cancer. More recently, the
+advent of immunogenomic technologies has provided prodigious opportunities to
+study the multidimensional landscape of lung tumors as well as their
+microenvironment at the molecular, genomic, and cellular resolution. In this
+review, we will summarize the current state of immune-based therapies for cancer,
+with a focus on lung malignancy, and highlight learning outcomes from clinical
+and preclinical studies investigating the naïve immune biology of lung cancer.
+The review also collates immunogenomic-based evidence from seminal reports which 
+collectively warrant future investigations of premalignancy, the tumor-adjacent
+normal-appearing lung tissue, pulmonary inflammatory conditions such as chronic
+obstructive pulmonary disease, as well as systemic microbiome imbalance. Such
+future directions enable novel insights into the evolution of lung cancers and,
+thus, can provide a low-hanging fruit of targets for early immune-based treatment
+of this fatal malignancy.
+
+The immune system plays a dual role in tumor evolution—it can identify and
+control nascent tumor cells in a process called immunosurveillance and can
+promote tumor progression through immunosuppression via various mechanisms. Thus,
+bilateral host-protective and tumor-promoting actions of immunity are integrated 
+as cancer immunoediting. In this decade, immune checkpoint inhibitors,
+specifically programmed cell death 1 (PD-1) pathway inhibitors, have changed the 
+treatment paradigm of advanced non-small cell lung cancer (NSCLC). These agents
+are approved for the treatment of patients with NSCLC and demonstrate impressive 
+clinical activity and durable responses in some patients. However, for many NSCLC
+patients, the efficacy of immune checkpoint inhibitors is limited. To optimize
+the full utility of the immune system for eradicating cancer, a broader
+understanding of cancer immunosurveillance and immunoediting is essential. In
+this review, we discuss the fundamental knowledge of the phenomena and provide an
+overview of the next-generation immunotherapies in the pipeline.
+
+Lung cancer is among the most common cancers with a high mortality rate
+worldwide. Despite the significant advances in diagnostic and therapeutic
+approaches, lung cancer prognoses and survival rates remain poor due to late
+diagnosis, drug resistance, and adverse effects. Therefore, new intervention
+therapies, such as the use of natural compounds with decreased toxicities, have
+been considered in lung cancer therapy. Curcumin, a natural occurring polyphenol 
+derived from turmeric (Curcuma longa) has been studied extensively in recent
+years for its therapeutic effects. It has been shown that curcumin demonstrates
+anti-cancer effects in lung cancer through various mechanisms, including
+inhibition of cell proliferation, invasion, and metastasis, induction of
+apoptosis, epigenetic alterations, and regulation of microRNA expression. Several
+in vitro and in vivo studies have shown that these mechanisms are modulated by
+multiple molecular targets such as STAT3, EGFR, FOXO3a, TGF-β, eIF2α, COX-2,
+Bcl-2, PI3KAkt/mTOR, ROS, Fas/FasL, Cdc42, E-cadherin, MMPs, and adiponectin. In 
+addition, limitations, strategies to overcome curcumin bioavailability, and
+potential side effects as well as clinical trials were also reviewed.
+
+Most cancers are resistant to anti-PD-1/PD-L1 and chemotherapy. Herein we
+identify PDLIM2 as a tumor suppressor particularly important for lung cancer
+therapeutic responses. While PDLIM2 is epigenetically repressed in human lung
+cancer, associating with therapeutic resistance and poor prognosis, its global or
+lung epithelial-specific deletion in mice causes increased lung cancer
+development, chemoresistance, and complete resistance to anti-PD-1 and epigenetic
+drugs. PDLIM2 epigenetic restoration or ectopic expression shows antitumor
+activity, and synergizes with anti-PD-1, notably, with chemotherapy for complete 
+remission of most lung cancers. Mechanistically, through repressing NF-κB/RelA
+and STAT3, PDLIM2 increases expression of genes involved in antigen presentation 
+and T-cell activation while repressing multidrug resistance genes and
+cancer-related genes, thereby rendering cancer cells vulnerable to immune attacks
+and therapies. We identify PDLIM2-independent PD-L1 induction by chemotherapeutic
+and epigenetic drugs as another mechanism for their synergy with anti-PD-1. These
+findings establish a rationale to use combination therapies for cancer treatment.
+
+Manipulation of the immune response is a game changer in lung cancer treatment,
+revolutionizing management. PD1 and CTLA4 are dynamically expressed on different 
+T cell subsets that can either disrupt or sustain tumor growth. Monoclonal
+antibodies (MoAbs) against PD1/PDL1 and CTLA4 have shown that inhibitory signals 
+can be impaired, blocking T cell activation and function. MoAbs, used as both
+single-agents or in combination with standard therapy for the treatment of
+advanced non-small cell lung cancer (NSCLC), have exhibited advantages in terms
+of overall survival and response rate; nivolumab, pembrolizumab, atezolizumab and
+more recently, durvalumab, have already been approved for lung cancer treatment
+and more compounds are in the pipeline. A better understanding of signaling
+elicited by these antibodies on T cell subsets, as well as identification of
+biological determinants of sensitivity, resistance and correlates of efficacy,
+will help to define the mechanisms of antitumor responses. In addition, the
+relevance of T regulatory cells (Treg) involved in immune responses in cancer is 
+attracting increasing interest. A major challenge for future research is to
+understand why a durable response to immune checkpoint inhibitors (ICIs) occurs
+only in subsets of patients and the mechanisms of resistance after an initial
+response. This review will explore current understanding and future direction of 
+research on ICI treatment in lung cancer and the impact of tumor immune
+microenvironment n influencing clinical responses.
+
+Recent research on cancer-associated microbial communities has elucidated the
+interplay between bacteria, immune cells, and tumor cells; the bacterial pathways
+involved in the induction of carcinogenesis; and their clinical significance.
+Although accumulating evidence shows that a dysbiotic condition is associated
+with lung carcinogenesis, the underlying mechanisms remain unclear.
+Microorganisms possibly trigger tumor initiation and progression, presumably via 
+the production of bacterial toxins and other pro-inflammatory factors. The
+purpose of this review is to discuss the basic role of the airway microbiome in
+carcinogenesis and the underlying molecular mechanisms, with the aim of
+developing anticancer strategies involving the airway microbiota. In addition,
+the mechanisms via which the microbiome acts as a modulator of immunotherapies in
+lung cancer are summarized.
+
+In recent years, the evolution of treatments has made it possible to
+significantly improve the outcomes of patients with non-small cell lung cancer
+(NSCLC). In particular, while molecular targeted therapies are effective in
+specific patient sub-groups, immune checkpoint inhibitors (ICIs) have greatly
+influenced the outcomes of a large proportion of NSCLC patients. While nivolumab 
+activity was initially assessed irrespective of predictive biomarkers, subsequent
+pivotal studies involving other PD-1/PD-L1 inhibitors in pre-treated advanced
+NSCLC (atezolizumab within the OAK study and pembrolizumab in the Keynote 010
+study) reported the first correlations between clinical outcomes and PD-L1
+expression. However, PD-L1 could not be sufficient on its own to select patients 
+who may benefit from immunotherapy. Many studies have tried to discover more
+precise markers that are derived from tumor tissue or from peripheral blood. This
+review aims to analyze any characteristics of the immunogram that could be used
+as a predictive biomarker for response to ICIs. Furthermore, we describe the most
+important genetic alteration that might predict the activity of immunotherapy.
+
+Small cell lung cancer (SCLC) accounts for approximately 10–15% of all lung
+cancers. The prognosis is poor with median survival in the advanced stage
+remaining at around 12 months. Despite applying every known therapeutic approach,
+no major breakthrough has improved the overall survival in the last 30 years.
+Historically, experiments performed on conventional cell lines may have
+limitations of not accurately reflecting the complex biological and genomic
+heterogeneity of this disease. However, additional knowledge gained from recently
+developed genetically engineered mouse models (GEMMs) and patient derived
+xenografts (PDXs) have made encouraging inroads. Whole genome sequencing (WGS)
+data reveals a high mutational burden and a number of genetic alterations but low
+frequency of targetable mutations. Despite several failures, considerable
+therapeutic opportunities have recently emerged. Potentially promising therapies 
+include those targeting DNA damage repair, stem cell/renewal and drug resistant
+mechanisms. Modest success has also been achieved with immune checkpoint
+inhibitors while therapeutic exploration of various other components of the
+immune system is underway. However, the complex heterogeneities reflect the need 
+for accurate bio-markers to translate novel discoveries into clinical benefit.
+Additionally, the molecular mechanisms that differentiate chemo-sensitive from
+chemo-refractory disease remain unknown. Obtaining reliable tumour samples by
+utilising novel techniques such as endobronchial ultrasound guided needle
+aspiration or adopting to liquid biopsies are becoming popular. This review will 
+focus on recent technological and therapeutic advancements to surmount this
+recalcitrant disease.
+
+Lung cancer remains a serious oncological problem worldwide. The delayed
+diagnosis and a prevalence of advanced stages in up to 70% of cases at
+recognition are still observed. Thanks to targeted therapies and immunotherapy a 
+significant progress in achieving prolonged survival in some lung cancer patients
+is reported. A precise histopathological diagnosis, especially the recognition of
+adenocarcinoma, and a progress in the methods of clinical staging underlie the
+proper qualification of patients for a tailored therapy. The deep molecular
+characteristics of lung cancer in liquid biopsy, for example blood,
+bronchoalveolar lavage fluid (BALF), cell suspension from needle aspirates, are
+currently available. The molecular characteristic has recently been extended with
+molecular aberrations of BRAF, KRAS, MET, ERBB2, RET, NTRK next to the well-known
+EGFR mutations and ALK, ROS-1 relocation. The present paper discusses the
+usefulness of adequate pathological methods and molecular testing for the
+identification of a broad spectrum of predictive biomarkers for a
+molecular-directed lung cancer therapy. Immunotherapy with immune checkpoint
+inhibitors (ICIs) is approved in the first line therapy of advanced
+non-small-cell lung cancer. To date only PD-L1 expression on tumor cells has been
+found to be a marker of response to ICIs. The efficacy of ICIs as well as the
+susceptibility to immune-related adverse events are highly individual, so immune 
+biomarkers are widely investigated. The candidates for predictive factors for
+ICIs immunotherapy include cancer cell antigenicity, presence of
+regulatory/suppressory molecules on cancer cells, cancer stem cells or on
+exosomes, and, on the other hand, an immune status of the patient. Cancers with
+high immune infiltration in the tumor milieu, referred to as “hot” tumors, seem
+to ensure a better response to ICIs than the “cold” ones. BALF analysis may
+replace cancer tissue examination, which is of limited access in advanced stages,
+for the recognition of the nature of immune response in the tumor environment.
+Tumor mutational burden (TMB) was shown to correlate with a good response to
+ICIs, especially when combined with other anticancer therapies. The present paper
+demonstrates the results of recent studies on lung cancer characteristics which
+bring us closer to the definition of useful prognostic/predictive factors.
+
+In response to DNA damage, a synthetic lethal relationship exists between the
+cell cycle checkpoint kinase MK2 and the tumor suppressor p53. Here, we describe 
+the concept of augmented synthetic lethality (ASL): depletion of a third gene
+product enhances a pre-existing synthetic lethal combination. We show that loss
+of the DNA repair protein XPA markedly augments the synthetic lethality between
+MK2 and p53, enhancing anti-tumor responses alone and in combination with
+cisplatin chemotherapy. Delivery of siRNA-peptide nanoplexes co-targeting MK2 and
+XPA to pre-existing p53-deficient tumors in a highly aggressive, immunocompetent 
+mouse model of lung adenocarcinoma improves long-term survival and cisplatin
+response beyond those of the synthetic lethal p53 mutant/MK2 combination alone.
+These findings establish a mechanism for co-targeting DNA damage-induced cell
+cycle checkpoints in combination with repair of cisplatin-DNA lesions in vivo
+using RNAi nanocarriers, and motivate further exploration of ASL as a generalized
+strategy to improve cancer treatment.
+
+Radiotherapy is one of the most common countermeasures for treating a wide range 
+of tumors. However, the radioresistance of cancer cells is still a major
+limitation for radiotherapy applications. Efforts are continuously ongoing to
+explore sensitizing targets and develop radiosensitizers for improving the
+outcomes of radiotherapy. DNA double-strand breaks are the most lethal lesions
+induced by ionizing radiation and can trigger a series of cellular DNA damage
+responses (DDRs), including those helping cells recover from radiation injuries, 
+such as the activation of DNA damage sensing and early transduction pathways,
+cell cycle arrest, and DNA repair. Obviously, these protective DDRs confer tumor 
+radioresistance. Targeting DDR signaling pathways has become an attractive
+strategy for overcoming tumor radioresistance, and some important advances and
+breakthroughs have already been achieved in recent years. On the basis of
+comprehensively reviewing the DDR signal pathways, we provide an update on the
+novel and promising druggable targets emerging from DDR pathways that can be
+exploited for radiosensitization. We further discuss recent advances identified
+from preclinical studies, current clinical trials, and clinical application of
+chemical inhibitors targeting key DDR proteins, including DNA-PKcs (DNA-dependent
+protein kinase, catalytic subunit), ATM/ATR (ataxia–telangiectasia mutated and
+Rad3-related), the MRN (MRE11-RAD50-NBS1) complex, the PARP (poly[ADP-ribose]
+polymerase) family, MDC1, Wee1, LIG4 (ligase IV), CDK1, BRCA1 (BRCA1 C terminal),
+CHK1, and HIF-1 (hypoxia-inducible factor-1). Challenges for ionizing
+radiation-induced signal transduction and targeted therapy are also discussed
+based on recent achievements in the biological field of radiotherapy.
+
+Somatic alterations in the epidermal growth factor receptor gene (EGFR) result in
+aberrant activation of kinase signaling and occur in ∼15% of non-small cell lung 
+cancers (NSCLC). Patients diagnosed with EGFR-mutant NSCLC have good initial
+clinical response to EGFR tyrosine kinase inhibitors (EGFR TKIs), yet tumor
+recurrence is common and quick to develop. Mechanisms of acquired resistance to
+EGFR TKIs have been studied extensively over the past decade. Great progress has 
+been made in understanding two major routes of therapeutic failure: additional
+genomic alterations in the EGFR gene and activation of alternative kinase
+signaling (so-called “bypass activation”). Several pharmacological agents aimed
+at overcoming these modes of EGFR TKI resistance are FDA-approved or under
+clinical development. Phenotypic transformation, a less common and less well
+understood mechanism of EGFR TKI resistance is yet to be addressed in the clinic.
+In the context of acquired EGFR TKI resistance, phenotypic transformation
+encompasses epithelial to mesenchymal transition (EMT), transformation of
+adenocarcinoma of the lung (LUAD) to squamous cell carcinoma (SCC) or small cell 
+lung cancer (SCLC). SCLC transformation, or neuroendocrine differentiation, has
+been linked to inactivation of TP53 and RB1 signaling. However, the exact
+mechanism that permits lineage switching needs further investigation. Recent
+reports indicate that LUAD and SCLC have a common cell of origin, and that
+trans-differentiation occurs under the right conditions. Options for therapeutic 
+targeting of EGFR-mutant SCLC are limited currently to conventional genotoxic
+chemotherapy. Similarly, the basis of EMT-associated resistance is not clear. EMT
+is a complex process that can be characterized by a spectrum of intermediate
+states with diverse expression of epithelial and mesenchymal factors. In the
+context of acquired resistance to EGFR TKIs, EMT frequently co-occurs with bypass
+activation, making it challenging to determine the exact contribution of EMT to
+therapeutic failure. Reversibility of EMT-associated resistance points toward its
+epigenetic origin, with additional adjustments, such as genetic alterations and
+bypass activation, occurring later during disease progression. This review will
+discuss the mechanistic basis for EGFR TKI resistance linked to phenotypic
+transformation, as well as challenges and opportunities in addressing this type
+of targeted therapy resistance in EGFR-mutant NSCLC.
+
+Lung cancer is one of the deadliest forms of cancer affecting society today.
+Non-coding RNAs, such as microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and 
+circular RNAs (circRNAs), through the transcriptional, post-transcriptional, and 
+epigenetic changes they impose, have been found to be dysregulated to affect lung
+cancer tumorigenesis and metastasis. This review will briefly summarize hallmarks
+involved in lung cancer initiation and progression. For initiation, these
+hallmarks include tumor initiating cells, immortalization, activation of
+oncogenes and inactivation of tumor suppressors. Hallmarks involved in lung
+cancer progression include metastasis and drug tolerance and resistance. The
+targeting of these hallmarks with non-coding RNAs can affect vital metabolic and 
+cell signaling pathways, which as a result can potentially have a role in
+cancerous and pathological processes. By further understanding non-coding RNAs,
+researchers can work towards diagnoses and treatments to improve early detection 
+and clinical response.
+
+Chemoprevention of lung cancer is thought to significantly reduce the risk of
+acquiring these conditions in the subpopulation of patients with underlying
+health issues, such as chronic obstructive pulmonary disorder and
+smoking-associated lung problems. Many strategies have been tested in the
+previous decades, with very few translating to successful clinical trials in
+specific subpopulations of patients. In this review, we analyze these strategies,
+as well as new approaches that have emerged throughout the last few years,
+including synthetic lethality concept and microbiome-induced regulation of lung
+carcinogenesis. Overall, the continuous effort in the area of lung
+chemoprevention is required to develop practical therapeutical approaches. Given 
+the inconsistency of results obtained in clinical trials targeting lung cancer
+chemoprevention in various subgroups of patients that differ in the underlying
+health condition, race, and gender, we believe that individualized approaches
+will have more promise than generalized treatments.
+
+Each year there will be an estimated 2.1 million new lung cancer cases and 1.8
+million lung cancer deaths worldwide. Tobacco smoke is the No.1 risk factors of
+lung cancer, accounting for > 85% lung cancer deaths. Air pollution, or haze,
+comprises ambient air pollution and household air pollution, which are reported
+to cause 252,000 and 304,000 lung cancer deaths each year, respectively. Tobacco 
+smoke and haze (hereafter, smohaze) contain fine particles originated from
+insufficient combustion of biomass or coal, have quite similar carcinogens, and
+cause similar diseases. Smohaze exert hazardous effects on exposed populations,
+including induction of a large amount of mutations in the genome, alternative
+splicing of mRNAs, abnormalities in epigenomics, initiation of tumor-promoting
+chronic inflammation, and facilitating immune escape of transformed cells.
+Tackling smohaze and development of multi-targets-based preventive and
+therapeutic approaches targeting smohaze-induced carcinogenesis are the key to
+conquer lung cancer in the future.
+
+The inhibition of the DNA damage response (DDR) pathway in the treatment of
+cancer has recently gained interest, and different DDR inhibitors have been
+developed. Among them, the most promising ones target the WEE1 kinase family,
+which has a crucial role in cell cycle regulation and DNA damage identification
+and repair in both nonmalignant and cancer cells. This review recapitulates and
+discusses the most recent findings on the biological function of WEE1/PKMYT1
+during the cell cycle and in the DNA damage repair, with a focus on their dual
+role as tumor suppressors in nonmalignant cells and pseudo-oncogenes in cancer
+cells. We here report the available data on the molecular and functional
+alterations of WEE1/PKMYT1 kinases in both hematological and solid tumors.
+Moreover, we summarize the preclinical information on 36 chemo/radiotherapy
+agents, and in particular their effect on cell cycle checkpoints and on the
+cellular WEE1/PKMYT1-dependent response. Finally, this review outlines the most
+important pre-clinical and clinical data available on the efficacy of WEE1/PKMYT1
+inhibitors in monotherapy and in combination with chemo/radiotherapy agents or
+with other selective inhibitors currently used or under evaluation for the
+treatment of cancer patients.
+
+Hypoxia occurs naturally at high-altitudes and pathologically in hypoxic solid
+tumors. Here, we report that genes involved in various human cancers evolved
+rapidly in Tibetans and six Tibetan domestic mammals compared to reciprocal
+lowlanders. Furthermore, m6A modified mRNA binding protein YTHDF1, one of
+evolutionary positively selected genes for high-altitude adaptation is amplified 
+in various cancers, including non-small cell lung cancer (NSCLC). We show that
+YTHDF1 deficiency inhibits NSCLC cell proliferation and xenograft tumor formation
+through regulating the translational efficiency of CDK2, CDK4, and cyclin D1, and
+that YTHDF1 depletion restrains de novo lung adenocarcinomas (ADC) progression.
+However, we observe that YTHDF1 high expression correlates with better clinical
+outcome, with its depletion rendering cancerous cells resistant to cisplatin
+(DDP) treatment. Mechanistic studies identified the Keap1-Nrf2-AKR1C1 axis as the
+downstream mediator of YTHDF1. Together, these findings highlight the critical
+role of YTHDF1 in both hypoxia adaptation and pathogenesis of NSCLC.
+
+Background: Lung cancer is the number one cancer killer worldwide. A major
+drawback in the lung cancer treatment field is the lack of realistic mouse models
+that replicate the complexity of human malignancy and immune contexture within
+the tumor microenvironment. Such models are urgently needed. Mutations of the
+tumor protein p53 are among the most common alterations in human lung cancers.
+Methods: Previously, we developed a line of lung cancer mouse model where mutant 
+human TP53-273H is expressed in a lung specific manner in FVB/N background. To
+investigate whether the human TP53 mutant has a similar oncogenic potential when 
+it is expressed in another strain of mouse, we crossed the FVB/N-SPC-TP53-273H
+mice to A/J strain and created A/J-SPC-TP53-273H transgenic mice. We then
+compared lung tumor formation between A/J-SPC-TP53-273H and FVB/N-SPC-TP53-273H. 
+Results: We found the TP53-273H mutant gene has a similar oncogenic potential in 
+lung tumor formation in both mice strains, although A/J strain mice have been
+found to be a highly susceptible strain in terms of carcinogen-induced lung
+cancer. Both transgenic lines survived more than 18 months and developed age
+related lung adenocarcinomas. With micro CT imaging, we found the
+FVB-SPC-TP53-273H mice survived more than 8 weeks after initial detection of lung
+cancer, providing a sufficient window for evaluating new anti-cancer agents.
+Conclusions: Oncogenic potential of the most common genetic mutation, TP53-273H, 
+in human lung cancer is unique when it is expressed in different strains of mice.
+Our mouse models are useful tools for testing novel immune checkpoint inhibitors 
+or other therapeutic strategies in the treatment of lung cancer.
