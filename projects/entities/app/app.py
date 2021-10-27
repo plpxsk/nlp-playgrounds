@@ -1,7 +1,8 @@
 import spacy
-from spacy_streamlit import load_model, process_text, visualize_ner
 import pandas as pd
 import streamlit as st
+from spacy_streamlit import visualize_ner
+from scispacy.abbreviation import AbbreviationDetector
 
 
 def load_data():
@@ -12,8 +13,24 @@ def load_data():
     return(x)
 
 
+@st.cache(allow_output_mutation=True)
+def load_model(name):
+    """Adapted from https://gist.github.com/DeNeutoy/b20860b40b9fa9d33675893c56afde42#file-app-py-L16"""
+    nlp = spacy.load(name)
+    # Add abbreviation detector
+    nlp.add_pipe('abbreviation_detector')
+    return nlp
+
+
+@st.cache(allow_output_mutation=True)
+def process_text(model_name, text):
+    """https://gist.github.com/DeNeutoy/b20860b40b9fa9d33675893c56afde42#file-app-py-L25"""
+    nlp = load_model(model_name)
+    return nlp(text)
+
+
 def get_special_entities(doc):
-    # https://gist.github.com/DeNeutoy/b20860b40b9fa9d33675893c56afde42#file-app-py-L121
+    """https://gist.github.com/DeNeutoy/b20860b40b9fa9d33675893c56afde42#file-app-py-L121"""
     attrs = ["text", "label_", "start", "end", "start_char", "end_char"]
     data = [
         [str(getattr(ent, attr)) for attr in attrs]
@@ -23,66 +40,66 @@ def get_special_entities(doc):
 
 
 def get_abbrevs(doc, nlp) -> dict:
-    #from scispacy.abbreviation import AbbreviationDetector
-    # nlp.add_pipe("abbreviation_detector")
     abbrevs = dict()
     for abrv in doc._.abbreviations:
         abbrevs[str(abrv)] = str(abrv._.long_form)
     return(abbrevs)
 
 
-TEXT = "Sundar Pichai  is the CEO of Google."
-
-TEXT = "Spinal and bulbar muscular atrophy (SBMA) is an \
-           inherited motor neuron disease caused by the expansion \
-           of a polyglutamine tract within the androgen receptor (AR). \
-           SBMA can be caused by this easily."
-
-TEXT = "PD1 and CTLA4 are dynamically expressed on different T cell subsets that can either disrupt or sustain tumor growth."
-
 TEXT = load_data()
 
 st.sidebar.title("MedLP")
 spacy_model = st.sidebar.selectbox("Select trained NLP model",
-                                   ["en_core_sci_sm", "en_core_web_sm",
+                                   ["en_core_sci_md", "en_core_web_sm",
                                     "en_ner_bionlp13cg_md"])
 # load model selected in sidebar
 nlp = load_model(spacy_model)
 
-visualizers = st.sidebar.multiselect("Select analyses", ["abbrev", "special", "genes", "ner"],
-                                     default=["abbrev", "special"])
+visualizers = st.sidebar.multiselect(
+    "Select analyses",
+    ["abbrev", "special", "genes", "ner"], default=["abbrev", "genes"])
 
 
-entity_kinds = st.sidebar.multiselect("Select entity kinds", nlp.get_pipe('ner').labels,
-                                      default=['GENE_OR_GENE_PRODUCT'])
-
-
-st.title("Load text data")
-text = st.text_area("Text to analyze", TEXT)
+st.header("Load text data")
+st.markdown("Default text is 18 cancer paper abstracts")
+text = st.text_area("You can paste your own text here:", TEXT)
 doc = process_text(spacy_model, text)
 
 
 if 'abbrev' in visualizers:
-    st.title("Abbreviations")
+    st.header("Abbreviations")
     x = get_abbrevs(doc, nlp)
-    x = pd.Series(x, name='Abbreviation')
+    x = pd.Series(x, name='Abbreviation').sort_index()
     st.write(x)
 
-if 'special' in visualizers:
-    st.title("Special Entities")
-    u = st.checkbox("Filter to unique?", value=False)
-
+if 'genes' in visualizers:
+    st.header("Genes")
+    kind = ["GENE_OR_GENE_PRODUCT"]
+    u1 = st.checkbox("Filter to unique tokens?", value=False, key=1)
     df, attrs = get_special_entities(doc)
     df = pd.DataFrame(df, columns=attrs)
-    df = df[df['label_'].isin(entity_kinds)]
-
+    df = df[df['label_'].isin(kind)]
+    df = df.drop('label_', axis=1)
+    if u1:
+        df = df.drop_duplicates('text')
     st.write(df)
 
 
-if 'genes' in visualizers:
-    st.title("Genes")
+if 'special' in visualizers:
+    st.header("Special Entities")
+    st.markdown("See **ner** for nice tagging.")
+    entity_kinds = st.multiselect("Select entity kinds",
+                                  nlp.get_pipe('ner').labels)
+
+    u2 = st.checkbox("Filter to unique tokens?", value=False, key=2)
+    df, attrs = get_special_entities(doc)
+    df = pd.DataFrame(df, columns=attrs)
+    df = df[df['label_'].isin(entity_kinds)]
+    if u2:
+        df = df.drop_duplicates('text')
+    st.write(df)
 
 
 if 'ner' in visualizers:
-    st.title("Named Entity Recognition")
-    visualize_ner(doc, labels=nlp.get_pipe("ner").labels)
+    st.header("Named Entity Recognition")
+    visualize_ner(doc, labels=nlp.get_pipe("ner").labels, title=None)
