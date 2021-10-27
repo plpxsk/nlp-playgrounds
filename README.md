@@ -2,7 +2,7 @@
 
 # Projects
 
-Classify medical abstracts into topics. See `/projects/abstracts`
+For completed apps/projects, see /projects
 
 # Course TLDR/Notes
 

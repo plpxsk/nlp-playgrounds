@@ -1,12 +1,14 @@
-# Grouping abstracts
+# Simple app clustering abstracts
 
 ![App](screenshot.png)
 
 For a sample of 18 medical abstracts, find clusters (topics) with SVD, NMF, and
 TF-IDF
 
-# Preview
+# App
+
+Uses streamlit.io
 
 Preview locally with `make prev`.
 
-Streamlit app can be installed from `requirements.txt`.
+Install with `pip install -r requirements.txt`.
