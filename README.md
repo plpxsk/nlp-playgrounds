@@ -4,12 +4,15 @@
 
 For completed apps and projects, see `/projects`
 
-Train and test **data** obtained as in Issue #1 and #2.
-
 # Notebooks
 
 Other playgrounds in `/notebooks`.
 
+# Data
+
+Data consists of medical paper abstracts from pubmed.
+
+All data, including train and test splits, obtained as in issue #1 and #2.
 
 # References
 
