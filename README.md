@@ -2,7 +2,7 @@
 
 # Projects
 
-For completed apps and projects, see /projects
+For completed apps and projects, see `/projects`
 
 Train and test **data** obtained as in Issue #1 and #2.
 
