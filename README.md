@@ -6,11 +6,14 @@ For completed apps and projects, see `/projects`
 
 Train and test **data** obtained as in Issue #1 and #2.
 
-# Course TLDR/Notes
+# Notebooks
 
-See `notes.md`
+Other playgrounds in `/notebooks`.
+
 
 # References
+
+For random TLDRs/notes, See `notes.md`
 
 SpaCy NLP Course: [course.spacy.io/en](https://course.spacy.io/en)
 
